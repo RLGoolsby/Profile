@@ -54,13 +54,25 @@ body {
 }
 
 h2{
-  padding-top: 6em;
+  padding-top: 3em;
+  padding-bottom: 1em;
 }
 
 p{
-  padding-bottom: 3em;
+  text-align: left;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 
+.img-responsive{
+  display:block;
+  width: 100% \9;
+  height:auto;
+}
+
+.something{
+  display:inline-block;
+}
 
 /* Padding for spacing */
 /*.inner {
