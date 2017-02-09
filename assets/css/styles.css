@@ -53,10 +53,19 @@ body {
   margin-left: auto;
 }
 
-/* Padding for spacing */
-.inner {
-  padding: 30px;
+h2{
+  padding-top: 6em;
 }
+
+p{
+  padding-bottom: 3em;
+}
+
+
+/* Padding for spacing */
+/*.inner {
+  padding: 30px;
+}*/
 
 
 /*
@@ -118,14 +127,8 @@ body {
 }
 
 
-/*
- * Footer
- */
 
-.mastfoot {
-  color: #999; /* IE8 proofing */
-  color: rgba(255,255,255,.5);
-}
+
 
 
 /*
