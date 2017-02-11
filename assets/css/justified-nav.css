@@ -14,7 +14,7 @@ height: 100%;
 .container{
     margin: 30px auto;
     height: 100%;
-
+    vertical-align: middle;
 }
 .footer {
   padding-top: 40px;
