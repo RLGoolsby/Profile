@@ -16,6 +16,23 @@ height: 100%;
     height: 100%;
     vertical-align: middle;
 }
+
+.col-lg-4{
+  border: 2px solid lightblue;
+
+}
+
+#repository{
+  padding-top: 5em;
+  padding-bottom: 1em;
+  font-size: 2.5em;
+  font-family: "Lato" Verdana sans-serif;
+}
+
+span{
+  color: lightblue;
+  font-size: 1.2em;
+}
 .footer {
   padding-top: 40px;
   padding-bottom: 40px;
@@ -24,7 +41,7 @@ height: 100%;
 }
 
 /* Main marketing message and sign up button */
-.jumbotron {
+/*.jumbotron {
   text-align: center;
   background-color: transparent;
 }
@@ -32,9 +49,35 @@ height: 100%;
 .jumbotron .btn {
   padding: 14px 24px;
   font-size: 21px;
+}*/
+
+.btn-primary {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
 }
 
-
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
 
 /* Customize the nav-justified links to be fill the entire space of the .navbar */
 
