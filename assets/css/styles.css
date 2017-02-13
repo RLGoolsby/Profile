@@ -59,11 +59,14 @@ h2{
   padding-bottom: 1em;
 }
 
+
 p{
   text-align: center;
-  padding-top: 1.5em;
+  padding-top: 1em;
   padding-bottom: 1.5em;
-  font-size: 1.5em;
+  letter-spacing: 1px;
+  font-size: 1.2em;
+  font-family: "Lato", Verdana, sans-serif;
 }
 
 .img-responsive{
@@ -85,6 +88,17 @@ ul{
   padding-bottom: 24px;
 }
 
+.github{
+  padding-bottom: 20px;
+}
+
+.fa.fa-leaf {
+    text-align: left;
+    color: #fff;
+    margin-top: 1.2em;
+    padding-left: 0.5em;
+    padding-right: 1em;
+}
 
 
 
@@ -106,7 +120,7 @@ ul{
 .masthead-nav > li > a {
   padding-right: 0;
   padding-left: 0;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: bold;
   color: #fff; /* IE8 proofing */
   color: rgba(255,255,255,.75);
@@ -158,7 +172,8 @@ ul{
 .bio-paragraph{
   vertical-align: middle;
   text-align: center;
-  font-size: 2em;
+  font-size: 2.3em;
+  letter-spacing: 1px;
   font-family: "Lato", Verdana, sans-serif;
   padding-top: 3.5em;
   /*padding-bottom: 5em;*/
@@ -168,6 +183,14 @@ ul{
   padding-bottom: 5em;
 }
 
+h1{
+  font-size: 6em;
+  font-family:  "Open Sans Condensed", Verdana, sans-serif;
+}
+
+.title{
+  font-size: 4.5em;
+}
 
 
 
