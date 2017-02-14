@@ -3,7 +3,7 @@ var landing = angular.module("landing", ["ngRoute"]);
 landing.config(function($routeProvider){
   console.log("and now");
   $routeProvider
-    
+
     .when("/bio",{
       templateUrl: "template/views/bio.html"
 
@@ -12,9 +12,9 @@ landing.config(function($routeProvider){
       templateUrl: "template/views/projects.html"
 
     })
-    // .when("/resume",{
-    //   templateUrl: "views/resume.html"
-    // })
+    .when("/resume",{
+      templateUrl: "template/views/resume.html"
+    })
     .otherwise({
       redirectTo: "/home"
 
