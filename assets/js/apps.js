@@ -3,8 +3,7 @@ var landing = angular.module("landing", ["ngRoute"]);
 landing.config(function($routeProvider){
   console.log("and now");
   $routeProvider
-
-  
+    
     .when("/bio",{
       templateUrl: "template/views/bio.html"
 

@@ -1,6 +1,7 @@
 
 body{
 height: 100%;
+overflow:inherit;
 }
 
 #projects{
@@ -17,13 +18,16 @@ height: 100%;
     vertical-align: middle;
 }
 
-/*.col-lg-4{
-  border: 2px solid lightblue;
+.col-lg-4{
+  /*position:relative;
+      float:left;
+      width: 33.3%;
+      padding: 20px;*/
 
-}*/
+}
 
 #repository{
-  padding-top: 5em;
+  padding-top: 3em;
   padding-bottom: 1em;
   font-size: 3em;
   font-family:  "Open Sans Condensed", Verdana, sans-serif;
@@ -145,4 +149,8 @@ span{
     padding-right: 0;
     padding-left: 0;
   }
+  /*.col-lg-4{
+    float: none;
+    width: 100%;
+  }*/
 }
