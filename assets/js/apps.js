@@ -12,9 +12,7 @@ landing.config(function($routeProvider){
       templateUrl: "template/views/projects.html"
 
     })
-    .when("/resume",{
-      templateUrl: "template/views/resume.html"
-    })
+    
     .otherwise({
       redirectTo: "/home"
 
