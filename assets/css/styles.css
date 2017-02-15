@@ -1,3 +1,5 @@
+/** I used Bootstrap framework create this Portfolio.  I tweaked it here and there.  **/
+
 /*
  * Globals
  */
@@ -55,54 +57,80 @@ body {
   margin-left: auto;
 }
 
-h2{
-  padding-top: 3em;
-  padding-bottom: 1em;
+
+
+
+
+
+
+
+
+/** Decorative Leaf logo **/
+.fa.fa-leaf {
+  color: lightgreen;
+}
+
+h1{
+  font-size: 6em;
+  font-family:  "Open Sans Condensed", Verdana, sans-serif;
+}
+
+.title{
+  font-size: 4.5em;
+}
+
+.fa.fa-github{
+  color: lightgreen;
+  padding-right: 10px;
+}
+
+.fa.fa-linkedin{
+  color: lightgreen;
 
 }
 
+.fa.fa-envelope{
+  color: lightgreen;
+  padding-left: 10px;
+}
 
-p{
+
+
+/** ==================================================  **/
+/**  Bio.html view **/
+#bio{
+  display: table;
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+}
+
+/** Self explanatory **/
+.bio-paragraph{
+  vertical-align: middle;
   text-align: center;
-  padding-top: 1em;
-  padding-bottom: 1.5em;
+  font-size: 2.3em;
   letter-spacing: 1px;
-  font-size: 1.2em;
   font-family: "Lato", Verdana, sans-serif;
+  padding-top: 3.5em;
+  /*padding-bottom: 5em;*/
 }
 
+/** SVG image **/
 .img-responsive{
   margin:auto;
   display:block;
   width: 100% \9;
   height: auto;
   padding-top: 3em;
-  padding-bottom: 3em;
+  padding-bottom: 2em;
 }
 
-ul{
-  /*padding: 2px auto;*/
-  list-style: none;
-  display: inline;
+/** Resume button **/
+#resume{
+  padding-bottom: 5em;
 }
-
-.site{
-  padding-bottom: 24px;
-}
-
-.github{
-  padding-bottom: 20px;
-}
-
-.fa.fa-leaf {
-    /*text-align: left;*/
-    color: lightgreen;
-    /*margin-top: 1.2em;
-    padding-left: 0.5em;
-    padding-right: 1em;*/
-}
-
-
 
 /*
  * Header
@@ -157,58 +185,6 @@ ul{
 .cover {
   padding: 0 20px;
 }
-.cover .btn-lg {
-  padding: 10px 20px;
-  font-weight: bold;
-}
-
-#bio{
-  display: table;
-    width: 100%;
-    height: 100%;
-    min-height: 100%;
-    box-shadow: inset 0 0 100px rgba(0,0,0,.5);
-}
-
-.bio-paragraph{
-  vertical-align: middle;
-  text-align: center;
-  font-size: 2.3em;
-  letter-spacing: 1px;
-  font-family: "Lato", Verdana, sans-serif;
-  padding-top: 3.5em;
-  /*padding-bottom: 5em;*/
-}
-
-.contact-info{
-  padding-bottom: 5em;
-}
-
-h1{
-  font-size: 6em;
-  font-family:  "Open Sans Condensed", Verdana, sans-serif;
-}
-
-.title{
-  font-size: 4.5em;
-}
-
-.fa.fa-github{
-  color: lightgreen;
-  padding-right: 10px;
-}
-
-.fa.fa-linkedin{
-  color: lightgreen;
-
-}
-
-.fa.fa-envelope{
-  color: lightgreen;
-  padding-left: 10px;
-}
-
-
 
 
 
@@ -222,10 +198,13 @@ h1{
     position: fixed;
     top: 5px;
   }
-  .mastfoot {
+
+  /** I might want to use later **/
+  /*.mastfoot {
     position: fixed;
     bottom: 10px;
-  }
+  }*/
+
   /* Start the vertical centering */
   .site-wrapper-inner {
     vertical-align: middle;

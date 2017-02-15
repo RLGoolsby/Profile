@@ -19,7 +19,7 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Lato:400,100,700' rel='stylesheet' type='text/css'>
 
-    <title>Profile</title>
+    <title>Portfolio</title>
 
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/justified-nav.css">
@@ -28,65 +28,56 @@
 
   <body>
 
-    <!-- Portal for views injection -->
-    <div ng-app="landing">
-        <ng-view></ng-view>
-    </div>
-
+<!-- =========================================================== -->
+          <!-- portal for views -->
+          <div ng-app="landing">
+              <ng-view></ng-view>
+          </div><!-- end of portal -->
+<!-- =========================================================== -->
 
 
     <div class="site-wrapper">
 
-
-          <div class="site-wrapper-inner">
+        <div class="site-wrapper-inner">
 
             <div class="cover-container">
 
+                <div class="masthead clearfix">
+                    <div class="inner">
+
+                    <!--  Decorative Leaf Icon -->
+                      <h3 class="masthead-brand"><i class="fa fa-leaf fa-2x"></i></h3>
+
+                      <nav>
+                        <ul class="nav masthead-nav">
+                          <li><a href="#">Home</a></li>
+                          <li><a href="#/bio">Bio</a></li>
+                          <li><a href="#/projects">Projects</a></li>
+                        </ul>
+                      </nav>
+
+                    </div><!-- end of inner -->
+
+                  </div><!-- end of masthead clearfix -->
 
 
-              <div class="masthead clearfix">
-                <div class="inner">
+                  <div class="inner cover">
+                        <h1 class="cover-heading">Rhonda Goolsby</h1>
+                        <h1 class="title">Web Developer</h1>
+
+                        <div class="links">
+                            <a target="_tab" href="https://github.com/rlgoolsby"><i class="fa fa-github fa-3x"></i></a></li>
+                            <a target="_tab" href="https://www.linkedin.com/in/rhonda-goolsby-64302a1b"><i class="fa fa-linkedin fa-2x"></i></a></li>
+                            <a target="_tab" href="mailto:rlgoolsby@gmail.com"><i class="fa fa-envelope fa-2x"></i></a></li>
+                        </div>
+                  </div><!-- end of inner cover -->
 
 
-                  <h3 class="masthead-brand"><i class="fa fa-leaf fa-2x"></i></h3>
-                  <nav>
-                    <ul class="nav masthead-nav">
-                      <li><a href="#">Home</a></li>
-                      <li><a href="#/bio">Bio</a></li>
-                      <li><a href="#/projects">Projects</a></li>
-                      
-                    </ul>
-                  </nav>
-                </div>
+            </div><!-- end of cover-container -->
 
+        </div><!-- end of site-wrapper-inner -->
 
-
-              </div>
-
-              <div class="inner cover">
-                <h1 class="cover-heading">Rhonda Goolsby</h1>
-                <h1 class="title">Web Developer</h1>
-
-                <div class="links">
-                <a target="_tab" href="https://github.com/rlgoolsby"><i class="fa fa-github fa-3x"></i></a></li>
-                <a target="_tab" href="https://www.linkedin.com/in/rhonda-goolsby-64302a1b"><i class="fa fa-linkedin fa-2x"></i></a></li>
-                <a target="_tab" href="mailto:rlgoolsby@gmail.com"><i class="fa fa-envelope fa-2x"></i></a></li>
-                </div>
-
-              </div>
-
-              <div class="mastfoot">
-                <div class="inner">
-
-                  <!-- <p>Cover template for <a href="http://getbootstrap.com">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p> -->
-                </div>
-              </div>
-
-            </div>
-
-          </div>
-
-        </div>
+    </div><!-- end of site-wrapper -->
 
 
 
@@ -98,6 +89,7 @@
 
     <script src="../../dist/js/bootstrap.min.js"></script>
 
+    <!-- for template/views-routing -->
     <script src="assets/js/apps.js"></script>
 
 
