@@ -1,4 +1,4 @@
-/** I used Bootstrap framework create this Portfolio.  I tweaked it here and there.  **/
+/** I used Bootstrap framework  to create this Portfolio.  I tweaked it here and there.  **/
 
 /*
  * Globals
@@ -57,81 +57,6 @@ body {
   margin-left: auto;
 }
 
-
-
-
-
-
-
-
-
-/** Decorative Leaf logo **/
-.fa.fa-leaf {
-  color: lightgreen;
-}
-
-h1{
-  font-size: 6em;
-  font-family:  "Open Sans Condensed", Verdana, sans-serif;
-}
-
-.title{
-  font-size: 4.5em;
-}
-
-.fa.fa-github{
-  color: lightgreen;
-  padding-right: 10px;
-}
-
-.fa.fa-linkedin{
-  color: lightgreen;
-
-}
-
-.fa.fa-envelope{
-  color: lightgreen;
-  padding-left: 10px;
-}
-
-
-
-/** ==================================================  **/
-/**  Bio.html view **/
-#bio{
-  display: table;
-    width: 100%;
-    height: 100%;
-    min-height: 100%;
-    box-shadow: inset 0 0 100px rgba(0,0,0,.5);
-}
-
-/** Self explanatory **/
-.bio-paragraph{
-  vertical-align: middle;
-  text-align: center;
-  font-size: 2.3em;
-  letter-spacing: 1px;
-  font-family: "Lato", Verdana, sans-serif;
-  padding-top: 3.5em;
-  /*padding-bottom: 5em;*/
-}
-
-/** SVG image **/
-.img-responsive{
-  margin:auto;
-  display:block;
-  width: 100% \9;
-  height: auto;
-  padding-top: 3em;
-  padding-bottom: 2em;
-}
-
-/** Resume button **/
-#resume{
-  padding-bottom: 5em;
-}
-
 /*
  * Header
  */
@@ -185,9 +110,93 @@ h1{
 .cover {
   padding: 0 20px;
 }
+/** end of bootstrap styling except of media-queries **/
+/** =========================================== **/
+
+
+/** ===========================================
+=========================================== **/
+/** Custom styling for Home page **/
+/** Decorative Leaf logo **/
+.fa.fa-leaf {
+  color: lightgreen;
+}
+
+/** My name on Home page "index.html" **/
+h1{
+  font-size: 6em;
+  font-family:  "Open Sans Condensed", Verdana, sans-serif;
+}
+
+/** Web Developer **/
+.title{
+  font-size: 4.5em;
+}
+
+/** Links **/
+.fa.fa-github{
+  color: lightgreen;
+  padding-right: 10px;
+}
+
+.fa.fa-linkedin{
+  color: lightgreen;
+}
+
+.fa.fa-envelope{
+  color: lightgreen;
+  padding-left: 10px;
+}
+/** end of custom styling for Home page **/
+/** =========================================== **/
 
 
 
+
+/** ===========================================
+=========================================== **/
+/** Custom styling for Bio page **/
+/**  Bio.html view **/
+#bio{
+  display: table;
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+}
+
+/** Self explanatory **/
+.bio-paragraph{
+  vertical-align: middle;
+  text-align: center;
+  font-size: 2.3em;
+  letter-spacing: 1px;
+  font-family: "Lato", Verdana, sans-serif;
+  padding-top: 3.5em;
+  /*padding-bottom: 5em;*/
+}
+
+/** SVG image **/
+.img-responsive{
+  margin:auto;
+  display:block;
+  width: 100% \9;
+  height: auto;
+  padding-top: 3em;
+  padding-bottom: 2em;
+}
+
+/** Resume button **/
+#resume{
+  padding-bottom: 5em;
+}
+/** end of custom styling for Bio page **/
+/** =========================================== **/
+
+
+
+
+/** Bootstrap Media-queries **/
 /*
  * Affix and center
  */

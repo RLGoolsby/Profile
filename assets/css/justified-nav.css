@@ -4,6 +4,8 @@ body{
 height: 100%;
 }
 
+/** ===========================================
+=========================================== **/
 /** Customer styling for projects view **/
 #projects{
   display: table;
@@ -58,9 +60,11 @@ ul{
 .github{
   padding-bottom: 6em;
 }
+/** end of custom styling for projects page **/
+/** =========================================== **/
 
 
-
+/** Bootstrap Styling **/
 /** styling for buttons **/
 .btn-primary {
     color: #fff;
@@ -166,3 +170,4 @@ ul{
   }
 
 }
+/** end of Bootstrap **/
