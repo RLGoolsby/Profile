@@ -207,7 +207,7 @@ h1{
     position: fixed;
     top: 5px;
   }
-  
+
   /** I might want to use later **/
   /*.mastfoot {
     position: fixed;
@@ -236,10 +236,10 @@ h1{
 }
 
 /* Large devices (large desktops, 1200px and up) */
-@media (min-width: @screen-lg-min: 1200px) {
+/*@media (min-width: @screen-lg-min: 1200px) {
   .masthead,
   .mastfoot,
   .cover-container {
     width: 928px;
   }
-}
+}*/
