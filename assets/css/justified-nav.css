@@ -28,7 +28,7 @@ height: 100%;
 /** element id for each Repository **/
 #repository{
   padding-top: 3em;
-  padding-bottom: 1em;
+  padding-bottom: 0.5em;
   font-size: 3em;
   font-family:  "Open Sans Condensed", Verdana, sans-serif;
 }
@@ -36,18 +36,19 @@ height: 100%;
 /** Description of Repository **/
 p{
   text-align: center;
+  color: lightgreen;
   padding-top: 1em;
   padding-bottom: 1.5em;
   letter-spacing: 1px;
-  font-size: 1.2em;
+  font-size: 1.5em;
   font-family: "Lato", Verdana, sans-serif;
 }
 
 /** tag used to identify instructions for site visit **/
-span{
+/*span{
   color: lightgreen;
   font-size: 1.2em;
-}
+}*/
 
 /** used to wrap "site" and "github" buttons **/
 ul{
