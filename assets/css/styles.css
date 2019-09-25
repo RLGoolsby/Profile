@@ -269,6 +269,9 @@ h1{
   #repository {
    padding-top: 0;     
   }
+  .github {
+    padding-bottom: 9em;
+}
 
 }
 
@@ -294,5 +297,8 @@ h1{
   #repository {
    padding-top: 0;     
   }
+  .github {
+    padding-bottom: 9em;
+}
 
 }
