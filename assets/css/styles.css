@@ -202,10 +202,6 @@ h1{
  * Affix and center
  */
 @media(min-width: 320px){
-  .masthead {
-    position: fixed;
-    top: 5px;
-  }
   .container{
   margin: 0;
   }
