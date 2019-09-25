@@ -201,7 +201,7 @@ h1{
 /*
  * Affix and center
  */
-@media(min-width: 320px){
+@media(max-width: 320px){
   .masthead-brand {
     margin-top: 2px;
     margin-bottom: 4px;
@@ -252,16 +252,32 @@ h1{
   .masthead,
   .mastfoot,
   .cover-container {
-    width: 700px;
+   width: 1304px;
+   margin: 2% auto;
+  }
+  .container {
+    margin: 13% auto;
+  }
+  h1 {
+    padding-top: 2em;
+  }
+  .bio-paragraph{
+  font-size: 2em;
   }
 
 }
 
 /* Large devices (large desktops, 1200px and up) */
-/*@media (min-width: @screen-lg-min: 1200px) {
-  .masthead,
+@media (min-width:1200px) {
+/*   .masthead,
   .mastfoot,
   .cover-container {
     width: 928px;
+  } */
+  .container {
+    margin: 13% auto;
   }
-}*/
+  h1 {
+    padding-top: 2em;
+  }
+}
