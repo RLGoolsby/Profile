@@ -172,7 +172,7 @@ h1{
   font-size: 2.3em;
   letter-spacing: 1px;
   font-family: "Lato", Verdana, sans-serif;
-  padding-top: 3.5em;
+  padding-top: 3em;
   /*padding-bottom: 5em;*/
 }
 
@@ -182,12 +182,13 @@ h1{
   display:block;
   width: 100% \9;
   height: auto;
-  padding-top: 3em;
-  padding-bottom: 2em;
+  padding-top: 3.5em;
+  padding-bottom: 3.5em;
 }
 
 /** Resume button **/
-#resume{
+#resume {
+  padding-top: 2em;
   padding-bottom: 5em;
 }
 /** end of custom styling for Bio page **/
