@@ -201,6 +201,25 @@ h1{
 /*
  * Affix and center
  */
+@media(min-width: 320px){
+  .masthead {
+    position: fixed;
+    top: 5px;
+  }
+  .container{
+  margin: 0;
+  }
+  .bio-paragraph{
+  padding-bottom: 0;
+  }
+  .img-responsive{
+  padding-top: 0;
+  }
+  #resume{
+  padding-top: 0;
+  }
+
+}
 
 @media (min-width: 768px) {
   /* Pull out the header and footer */
