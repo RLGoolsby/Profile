@@ -202,11 +202,19 @@ h1{
  * Affix and center
  */
 @media(min-width: 320px){
-  .container{
-  margin: 0;
+  .masthead-brand {
+    margin-top: 2px;
+    margin-bottom: 4px;
+  }
+  .container {
+    height: 100%;
+    vertical-align: middle;
   }
   .bio-paragraph{
-  padding-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 1em;
+  font-size: 1.3em;
+  }
   }
   .img-responsive{
   padding-top: 0;
@@ -220,16 +228,14 @@ h1{
 @media (min-width: 768px) {
   /* Pull out the header and footer */
   .masthead {
-    position: fixed;
     top: 5px;
   }
-
-  /** I might want to use later **/
-  /*.mastfoot {
-    position: fixed;
-    bottom: 10px;
-  }*/
-
+  .container {
+    margin: 30% auto;
+  }
+  .bio-paragraph {
+    padding-bottom: 1em;
+  }
   /* Start the vertical centering */
   .site-wrapper-inner {
     vertical-align: middle;
