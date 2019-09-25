@@ -262,22 +262,37 @@ h1{
     padding-top: 2em;
   }
   .bio-paragraph{
-  font-size: 2em;
+    font-size: 2em;
+    padding-bottom: 2em;
+    padding-top: 0.1em;
+  }
+  #repository {
+   padding-top: 0;     
   }
 
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width:1200px) {
-/*   .masthead,
+   .masthead,
   .mastfoot,
   .cover-container {
-    width: 928px;
-  } */
+   width: 1304px;
+   margin: 2% auto;
+  } 
   .container {
     margin: 13% auto;
   }
   h1 {
     padding-top: 2em;
   }
+  .bio-paragraph{
+    font-size: 2em;
+    padding-bottom: 2em;
+    padding-top: 0.1em;
+  }
+  #repository {
+   padding-top: 0;     
+  }
+
 }
