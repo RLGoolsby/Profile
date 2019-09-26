@@ -229,10 +229,6 @@ h1{
   /* Pull out the header and footer */
   .masthead {
     top: 5px;
-    margin-bottom: 40px;
-    padding-right: 0;
-    padding-left: 0;
-    position: relative;
   }
   .container {
     margin: 30% auto;
