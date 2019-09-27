@@ -2,6 +2,7 @@
     projects view.  I have added some custom elements for styling of specific html tags. **/
 body{
 height: 100%;
+overflow: hidden;
 }
 
 /** ===========================================
@@ -31,6 +32,7 @@ height: 100%;
   padding-bottom: 0.5em;
   font-size: 3em;
   font-family:  "Open Sans Condensed", Verdana, sans-serif;
+  overflow-y: auto;
 }
 
 /** Description of Repository **/
