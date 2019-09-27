@@ -278,7 +278,8 @@ h1{
   .masthead,
   .mastfoot,
   .cover-container {
-   margin: 2%;
+  width: 108%;
+    margin: 2% auto;
     max-width: 1400px;
   }
   .container {
@@ -306,8 +307,8 @@ h1{
    .masthead,
   .mastfoot,
   .cover-container {
-  width: 100%;
-    margin: 2%;
+  width: 108%;
+    margin: 2% auto;
     max-width: 1400px;
   } 
   .container {
