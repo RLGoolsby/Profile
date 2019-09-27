@@ -249,9 +249,9 @@ h1{
     padding-bottom: 1em;
   }
   /* Start the vertical centering */
-  .site-wrapper-inner {
+/*   .site-wrapper-inner {
     vertical-align: middle;
-  }
+  } */
   /* Handle the widths */
   .masthead,
   .mastfoot,
