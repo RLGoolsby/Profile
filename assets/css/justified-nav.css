@@ -172,7 +172,7 @@ ul{
   .masthead,
   .marketing,
   .footer {
-    margin-bottom: 40px;
+    margin: 0;
     padding-right: 0;
     padding-left: 0;
     position: relative;
