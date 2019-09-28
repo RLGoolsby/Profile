@@ -28,10 +28,13 @@ a:hover {
 
 html,
 body {
-  position: relative;
-  height: 100%;
+/*   position: relative; */
+/*   height: 100%; */
   background-color: #6A6653;
-
+  width:100%;
+	height:100%;
+	padding:0;
+	margin:0;
 }
 body {
   color: lightcyan;
@@ -47,6 +50,7 @@ body {
   min-height: 100%;
   -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
           box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+	position:relative;
 }
 .site-wrapper-inner {
   display: table-cell;
@@ -163,6 +167,7 @@ h1{
     height: 100%;
     min-height: 100%;
     box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+    overflow:auto;
 }
 
 /** Self explanatory **/
@@ -172,7 +177,7 @@ h1{
   font-size: 2.3em;
   letter-spacing: 1px;
   font-family: "Lato", Verdana, sans-serif;
-  padding-top: 3.5em;
+  padding-top: 3em;
   /*padding-bottom: 5em;*/
 }
 
@@ -182,42 +187,85 @@ h1{
   display:block;
   width: 100% \9;
   height: auto;
-  padding-top: 3em;
-  padding-bottom: 2em;
+  padding-top: 3.5em;
+  padding-bottom: 3.5em;
 }
 
 /** Resume button **/
-#resume{
+#resume {
+  padding-top: 2em;
   padding-bottom: 5em;
 }
+
 /** end of custom styling for Bio page **/
 /** =========================================== **/
 
-
-
+/** Bio and Projects page styling **/
+.container {
+    /* margin: 20% auto; */
+    height: 100%;
+    /* vertical-align: middle; */
+    display: block;
+    /* height: 1px; */
+    overflow: hidden;
+}
+/** end of custom styling for Projects page
 
 /** Bootstrap Media-queries **/
 /*
  * Affix and center
  */
+@media(max-width: 320px){
+  .masthead-brand {
+    margin-top: 2px;
+    margin-bottom: 4px;
+  }
+  .container {
+    height: 100%;
+    vertical-align: middle;
+  }
+  .bio-paragraph{
+  padding-top: 0;
+  padding-bottom: 4em;
+  font-size: 1.3em;
+  }
+
+  .img-responsive{
+  padding-top: 0;
+  }
+  #resume{
+  padding-top: 0;
+  }
+
+}
+@media (min-width: 440px) {
+  .container{
+  margin: auto;
+  }
+  .img-responsive{
+    padding-top: 1.5em;
+    padding-bottom: 1em;
+  }
+  .bio-paragraph {
+  font-size: 1.5em;
+  }
+}
 
 @media (min-width: 768px) {
   /* Pull out the header and footer */
   .masthead {
-    position: fixed;
     top: 5px;
   }
-
-  /** I might want to use later **/
-  /*.mastfoot {
-    position: fixed;
-    bottom: 10px;
-  }*/
-
-  /* Start the vertical centering */
-  .site-wrapper-inner {
-    vertical-align: middle;
+  .container {
+    margin: 30% auto;
   }
+  .bio-paragraph {
+    padding-bottom: 1em;
+  }
+  /* Start the vertical centering */
+/*   .site-wrapper-inner {
+    vertical-align: middle;
+  } */
   /* Handle the widths */
   .masthead,
   .mastfoot,
@@ -230,16 +278,55 @@ h1{
   .masthead,
   .mastfoot,
   .cover-container {
-    width: 700px;
+  width: 108%;
+    margin: 2% auto;
+    max-width: 1400px;
   }
+  .container {
+    margin: 13% auto;
+  }
+  h1 {
+    padding-top: 2em;
+  }
+  .bio-paragraph{
+    font-size: 2em;
+    padding-bottom: 2em;
+    padding-top: 0.1em;
+  }
+  #repository {
+   padding-top: 0;     
+  }
+  .github {
+    padding-bottom: 9em;
+}
 
 }
 
 /* Large devices (large desktops, 1200px and up) */
-/*@media (min-width: @screen-lg-min: 1200px) {
-  .masthead,
+@media (min-width:1200px) {
+   .masthead,
   .mastfoot,
   .cover-container {
-    width: 928px;
+  width: 108%;
+    margin: 2% auto;
+    max-width: 1400px;
+  } 
+  .container {
+    margin: 13% auto;
   }
-}*/
+  h1 {
+    padding-top: 2em;
+  }
+  .bio-paragraph{
+    font-size: 2em;
+    padding-bottom: 2em;
+    padding-top: 0.1em;
+  }
+  #repository {
+   padding-top: 0;     
+  }
+  .github {
+    padding-bottom: 9em;
+}
+
+}
