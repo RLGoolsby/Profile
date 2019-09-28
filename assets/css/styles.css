@@ -294,7 +294,7 @@ h1{
     padding-top: 0.1em;
   }
   #repository {
-   padding-top: 0;     
+   padding-top: 0;
   }
   .github {
     padding-bottom: 9em;
@@ -303,14 +303,14 @@ h1{
 }
 
 /* Large devices (large desktops, 1200px and up) */
-@media (min-width:1200px) {
+/* @media (min-width:1200px) {
    .masthead,
   .mastfoot,
   .cover-container {
   width: 108%;
     margin: 2% auto;
     max-width: 1400px;
-  } 
+  }
   .container {
     margin: 13% auto;
   }
@@ -323,10 +323,10 @@ h1{
     padding-top: 0.1em;
   }
   #repository {
-   padding-top: 0;     
+   padding-top: 0;
   }
   .github {
     padding-bottom: 9em;
 }
 
-}
+} */
