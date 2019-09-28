@@ -1,4 +1,4 @@
-var landing = angular.module("landing", ["ngRoute"]);
+is var landing = angular.module("landing", ["ngRoute"]);
  console.log("working");
 landing.config(function($routeProvider){
   console.log("and now");
@@ -12,7 +12,7 @@ landing.config(function($routeProvider){
       templateUrl: "template/views/projects.html"
 
     })
-    
+
     .otherwise({
       redirectTo: "/home"
 
