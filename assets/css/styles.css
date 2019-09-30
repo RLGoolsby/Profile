@@ -82,9 +82,11 @@ body {
   padding-left: 0;
   font-size: 22px;
   font-weight: bold;
-  color: #fff; /* IE8 proofing */
+/*   color: #fff;  */
   color: rgba(255,255,255,.75);
   border-bottom: 2px solid transparent;
+  color: lightcyan;
+  cursor: pointer;
 }
 .masthead-nav > li > a:hover,
 .masthead-nav > li > a:focus {
@@ -290,6 +292,10 @@ h1{
     margin: 2% auto;
     height: auto;/* 9/30 */
 /*     max-width: 1400px; */
+  }
+ .cover{
+  margin:20% auto;
+  position: relative /* 9/30 */
   }
   .container {
     margin: 13% auto;
