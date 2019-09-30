@@ -113,6 +113,7 @@ body {
 
 .cover {
   padding: 0 20px;
+  position: relative /* 9/30 */
 }
 /** end of bootstrap styling except of media-queries **/
 /** =========================================== **/
