@@ -1,4 +1,4 @@
- var landing = angular.module("landing", ["ngRoute"]);
+ var landing = angular.module("landing", ["ngRoute"]).value('$anchorScroll', angular.noop);
  console.log("working");
  landing.config(function($routeProvider){
   console.log("and now");
