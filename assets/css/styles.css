@@ -66,6 +66,13 @@ body {
 /*
  * Header
  */
+
+.masthead.clearfix {
+  border-bottom: 2px solid darkgrey;
+    /* background-color: darkkhaki; */
+    max-width: 1400px;
+}
+
 .masthead-brand {
   margin-top: 10px;
   margin-bottom: 12px;
