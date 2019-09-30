@@ -1,6 +1,6 @@
-is var landing = angular.module("landing", ["ngRoute"]);
+ var landing = angular.module("landing", ["ngRoute"]);
  console.log("working");
-landing.config(function($routeProvider){
+ landing.config(function($routeProvider){
   console.log("and now");
   $routeProvider
 
