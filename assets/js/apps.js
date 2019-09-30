@@ -1,4 +1,8 @@
- var landing = angular.module("landing", ["ngRoute"]);
+ var landing = angular.module("landing", ["ngRoute"]).run(["$rootScope", "$anchorScroll" , function ($rootScope, $anchorScroll) {
+    $rootScope.$on("$locationChangeSuccess", function() {
+                $anchorScroll();
+    });
+}]);;
  console.log("working");
  landing.config(function($routeProvider){
   console.log("and now");
