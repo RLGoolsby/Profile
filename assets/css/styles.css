@@ -53,8 +53,9 @@ body {
 	position:relative;
 }
 .site-wrapper-inner {
-  display: table-cell;
+/*   display: table-cell; */
   vertical-align: top;
+  height: auto;/* 9/30 */
 }
 .cover-container {
   margin-right: auto;
@@ -281,6 +282,7 @@ h1{
   .cover-container {
 /*   width: 108%; */
     margin: 2% auto;
+    height: auto;/* 9/30 */
 /*     max-width: 1400px; */
   }
   .container {
