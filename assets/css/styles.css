@@ -30,7 +30,8 @@ html,
 body {
 /*   position: relative; */
 /*   height: 100%; */
-  background-color: #6A6653;
+  /* background-color: #6A6653; */
+  background-color: cadetblue;
   width:100%;
 	height:100%;
 	padding:0;
@@ -51,6 +52,7 @@ body {
   -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
           box-shadow: inset 0 0 100px rgba(0,0,0,.5);
 	position:relative;
+  background-color: cadetblue;
 }
 .site-wrapper-inner {
 /*   display: table-cell; */
@@ -68,7 +70,6 @@ body {
  */
 
 .masthead.clearfix {
-  
     /* background-color: darkkhaki; */
     max-width: 1400px;
 }
