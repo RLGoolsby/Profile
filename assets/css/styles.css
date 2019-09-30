@@ -295,14 +295,14 @@ h1{
 /*     max-width: 1400px; */
   }
  .cover{
-  margin:20% auto;
-  position: relative /* 9/30 */
+  margin:10% auto;
+  position: relative; /* 9/30 */
   }
   .container {
     margin: 13% auto;
   }
   h1 {
-    padding-top: 2em;
+    padding-top: 0.5em;
   }
   .bio-paragraph{
     font-size: 2em;
