@@ -115,7 +115,7 @@ body {
 
 .cover {
 /*   padding: 0 20px; */
-  margin:20% auto;
+  margin:10% auto;
   position: relative /* 9/30 */
 }
 /** end of bootstrap styling except of media-queries **/
@@ -259,6 +259,10 @@ h1{
   /* Pull out the header and footer */
   .masthead {
     top: 5px;
+  }
+.cover{
+  margin:30% auto;
+  position: relative /* 9/30 */
   }
   .container {
     margin: 20% auto;
