@@ -280,7 +280,7 @@ h1{
   .cover-container {
 /*   width: 108%; */
     margin: 2% auto;
-    max-width: 1400px;
+/*     max-width: 1400px; */
   }
   .container {
     margin: 13% auto;
