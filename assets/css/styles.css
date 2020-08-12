@@ -71,7 +71,7 @@ body {
 
 .masthead.clearfix {
     /* background-color: darkkhaki; */
-    max-width: 1400px;
+    /* max-width: 1400px; */
 }
 
 .masthead-brand {
@@ -116,6 +116,11 @@ body {
   .masthead-nav {
     float: right;
   }
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 
