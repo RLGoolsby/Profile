@@ -152,11 +152,19 @@ h1{
 }
 
 /** Web Developer **/
-.title{
+/*.title{
     font-size: 5.5em;
     padding: 10px;
+}*/
+.title {
+    font-size: 4.5em;
+    padding: 10px;
+    margin-top: 20px;
 }
-
+.links {
+    margin-top: 65px;
+    font-size: 25px;
+}
 /** Links **/
 .fa.fa-github{
   color: lightgreen;

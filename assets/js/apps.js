@@ -3,6 +3,7 @@
                 $anchorScroll();
     });
 }]);;
+
  console.log("working");
  landing.config(function($routeProvider){
   console.log("and now");
