@@ -62,6 +62,9 @@ body {
   margin-left: auto;
 } */
 .container-fluid{
+  vertical-align: top;
+  height: auto;
+  overflow: auto;
   margin-right: auto;
   margin-left: auto;
 }
@@ -195,7 +198,6 @@ h1{
     width: 100%;
     height: 100%;
     min-height: 100%;
-    box-shadow: inset 0 0 100px rgba(0,0,0,.5);
     overflow:auto;
 }
 
@@ -221,16 +223,16 @@ h1{
 }
 
 /** Resume button **/
-#resume {
+/* #resume {
   padding-top: 2em;
   padding-bottom: 5em;
-}
+} */
 
 /** end of custom styling for Bio page **/
 /** =========================================== **/
 
 /** Bio and Projects page styling **/
-.container {
+.container-fluid {
     /* margin: 20% auto; */
     height: 100%;
     /* vertical-align: middle; */
@@ -262,9 +264,9 @@ h1{
   .img-responsive{
   padding-top: 0;
   }
-  #resume{
+  /* #resume{
   padding-top: 0;
-  }
+  } */
 
 }
 @media (min-width: 440px) {
