@@ -52,11 +52,11 @@ body {
 	position:relative;
   background-color: cadetblue;
 }
-.site-wrapper-inner {
+/* .site-wrapper-inner {
   vertical-align: top;
     height: auto;
     overflow: auto;
-}
+} */
 /* .cover-container {
   margin-right: auto;
   margin-left: auto;
@@ -149,7 +149,7 @@ body {
 /** My name on Home page "index.html" **/
 h1{
   font-size: 6em;
-  font-family:  "Open Sans Condensed", Verdana, sans-serif;
+  font-family:  "Lato", Verdana, sans-serif;
 }
 
 /** Web Developer **/
