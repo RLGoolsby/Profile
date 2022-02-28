@@ -60,7 +60,11 @@ body {
     height: auto;
     overflow: auto;
 }
-.cover-container {
+/* .cover-container {
+  margin-right: auto;
+  margin-left: auto;
+} */
+.container-fluid{
   margin-right: auto;
   margin-left: auto;
 }
@@ -289,7 +293,7 @@ h1{
     top: 5px;
   }
 .cover{
-  margin:30% auto;
+  margin: 45% auto;
   position: relative /* 9/30 */
   }
   .container {
