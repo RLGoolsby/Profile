@@ -34,7 +34,7 @@ body {
   color: aliceblue;
   text-align: center;
 
-   background-color: #444434; 
+  background-color: #444434;
   width:100%;
 	height:100%;
 	padding:0;
@@ -78,7 +78,9 @@ body {
 /*
  * Header
  */
-
+header{
+  background-image: url("/assets/css/images/elephant.png");
+}
 .masthead-brand {
   margin-top: 10px;
   margin-bottom: 12px;
