@@ -18,17 +18,17 @@ background-color:#444434;
 }
 
 .container-fluid {
-    height: 100%;
-    vertical-align: middle;
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+  margin: auto;
 }
 
 .row{
   margin-top: 9em;
   height: 100%;
 }
-header{
-  background-image: url("/assets/css/images/elephant.png");
-}
+
 
 /** element id for each Repository **/
 #repository{
@@ -50,11 +50,6 @@ p{
   font-family: "Lato", Verdana, sans-serif;
 }
 
-/** tag used to identify instructions for site visit **/
-/*span{
-  color: lightgreen;
-  font-size: 1.2em;
-}*/
 
 /** used to wrap "site" and "github" buttons **/
 ul{
