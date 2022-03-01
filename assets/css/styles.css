@@ -264,7 +264,7 @@ width:100%;
     vertical-align: middle;
   }
   .bio-paragraph{
-  padding-top: 0;
+  /* padding-top: 0; */
   padding-bottom: 4em;
   font-size: 1.3em;
   font-family: 'Lato', Verdana, sans-serif;
@@ -342,7 +342,7 @@ width:100%;
   .bio-paragraph{
     font-size: 2em;
     padding-bottom: 2em;
-    padding-top: 0.1em;
+    /* padding-top: 0.1em; */
   }
   #repository {
    padding-top: 0;
