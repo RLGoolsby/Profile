@@ -2,8 +2,7 @@
     projects view.  I have added some custom elements for styling of specific html tags. **/
 body{
 height: 100%;
-background-image: url('inline-feature-bg-jpg');
-/* background-color:#444434; */
+background-color:#444434;
 /* position:fixed; */
 }
 
