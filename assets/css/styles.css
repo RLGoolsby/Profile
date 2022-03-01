@@ -307,7 +307,10 @@ width:100%;
   .bio-paragraph{
     font-size: 2em;
     padding-bottom: 2em;
-    /* padding-top: 0.1em; */
+    word-break: break-word;
+    width: 84%;
+    margin: auto;
+
   }
   #repository {
    padding-top: 0;
