@@ -1,9 +1,7 @@
 /** I used Bootstrap framework  to create this Portfolio.  I tweaked it here and there.  **/
-
 /*
  * Globals
  */
-
 /* Links */
 a,
 a:focus,
@@ -16,32 +14,30 @@ a:hover {
 .btn-default:hover,
 .btn-default:focus {
   color: #333;
-  text-shadow: none; /* Prevent inheritance from `body` */
+  text-shadow: none;
+  /* Prevent inheritance from `body` */
   background-color: #fff;
   border: 1px solid #fff;
 }
 
-
 /*
  * Base structure
  */
-
-
 body {
-/*   position: relative; */
-/*   height: 100%; */
+  /*   position: relative; */
+  /*   height: 100%; */
   /* background-color: #6A6653; */
   color: aliceblue;
   text-align: center;
   background-color: #444434;
-  width:100%;
-	height:100%;
-	padding:0;
-	margin:0;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
   /* background-color: darkgreen; */
 }
 
-.container-fluid{
+.container-fluid {
   width: 100%;
   height: 100%;
   vertical-align: middle;
@@ -52,19 +48,20 @@ body {
 /*
  * Header
  */
-
 .masthead-brand {
   margin-top: 10px;
   margin-bottom: 12px;
 }
 
-.masthead-nav > li {
+.masthead-nav>li {
   display: inline-block;
 }
-.masthead-nav > li + li {
+
+.masthead-nav>li+li {
   margin-left: 20px;
 }
-.masthead-nav > li > a {
+
+.masthead-nav>li>a {
   padding-right: 0;
   padding-left: 0;
   font-size: 35px;
@@ -72,23 +69,26 @@ body {
   color: black;
   cursor: pointer;
 }
-.masthead-nav > li > a:hover,
-.masthead-nav > li > a:focus {
+
+.masthead-nav>li>a:hover,
+.masthead-nav>li>a:focus {
   background-color: transparent;
   border-bottom-color: #a9a9a9;
-  border-bottom-color: rgba(255,255,255,.25);
+  border-bottom-color: rgba(255, 255, 255, .25);
 }
-.masthead-nav > .active > a,
-.masthead-nav > .active > a:hover,
-.masthead-nav > .active > a:focus {
+
+.masthead-nav>.active>a,
+.masthead-nav>.active>a:hover,
+.masthead-nav>.active>a:focus {
   color: #fff;
   border-bottom-color: #fff;
 }
 
 @media (min-width: 768px) {
   .masthead-brand {
-    margin:auto;
+    margin: auto;
   }
+
   .masthead-nav {
     float: right;
   }
@@ -97,84 +97,78 @@ body {
 /*
  * Cover
  */
-
 .cover {
-/*   padding: 0 20px; */
-  margin:10% auto;
-  position: relative /* 9/30 */
+  /*   padding: 0 20px; */
+  margin: 25% auto;
+  position: relative
+    /* 9/30 */
 }
+
 /** end of bootstrap styling except of media-queries **/
 /** =========================================== **/
-
-
 /** ===========================================
 =========================================== **/
 /** Custom styling for Home page **/
 /** Decorative Leaf logo **/
 .fa.fa-leaf {
   color: lightgreen;
-  font-weight:700;
+  font-weight: 700;
 }
 
 /** My name on Home page "index.html" **/
-h1{
+h1 {
   font-size: 6em;
-  font-family:  "Lato", Verdana, sans-serif;
+  font-family: "Lato", Verdana, sans-serif;
   color: aliceblue;
 }
-ul.divide{
+
+ul.divide {
   display: inline-flex;
-  margin:auto;
-  padding:0;
+  margin: auto;
+  padding: 0;
 }
 
-/** Web Developer **/
-/*.title{
-    font-size: 5.5em;
-    padding: 10px;
-}*/
 .title {
-    font-size: 4.5em;
-    padding: 10px;
-    margin-top: 20px;
-    color:aliceblue;
+  font-size: 4.5em;
+  padding: 10px;
+  margin-top: 20px;
+  color: aliceblue;
 }
+
 .links {
-    margin-top: 65px;
-    font-size: 25px;
+  margin-top: 65px;
+  font-size: 25px;
 }
+
 /** Links **/
-.fa.fa-github{
+.fa.fa-github {
   color: lightgreen;
   padding-right: 10px;
 }
 
-.fa.fa-linkedin{
+.fa.fa-linkedin {
   color: lightgreen;
 }
 
-.fa.fa-envelope{
+.fa.fa-envelope {
   color: lightgreen;
   padding-left: 10px;
 }
+
 /** end of custom styling for Home page **/
 /** =========================================== **/
-
 /** ===========================================
 =========================================== **/
 /** Custom styling for Bio page **/
 /**  Bio.html view **/
-#bio{
-  /* display: table; */
-    width: 100%;
-    height: 100%;
-
-    /* min-height: 100%; */
-    overflow: auto;
+#bio {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
 }
 
 /** Self explanatory **/
-.bio-paragraph{
+.bio-paragraph {
   vertical-align: middle;
   text-align: center;
   font-size: 2.3em;
@@ -183,13 +177,12 @@ ul.divide{
   padding-top: 6em;
   color: aliceblue;
   word-wrap: break-word;
-  /*padding-bottom: 5em;*/
 }
 
 /** SVG image **/
-.img-responsive{
-  margin:auto;
-  display:block;
+.img-responsive {
+  margin: auto;
+  display: block;
   width: 100% \9;
   height: auto;
   padding-top: 3.5em;
@@ -201,158 +194,139 @@ ul.divide{
   padding-top: 2em;
   padding-bottom: 5em;
 } */
-
 /** end of custom styling for Bio page **/
 /** =========================================== **/
-
 /** Bio and Projects page styling **/
 .container-fluid {
-    /* margin: 20% auto; */
-    height: 100%;
-    /* vertical-align: middle; */
-    display: inline-block;
-    /* height: 1px; */
-    overflow: hidden;
+  height: 100%;
+  display: inline-block;
+  overflow: hidden;
 }
-#projects{
-width:100%;
+
+#projects {
+  width: 100%;
 }
+
 /** end of custom styling for Projects page
 
 /** Bootstrap Media-queries **/
 /*
  * Affix and center
  */
-@media(max-width: 320px){
+@media(max-width: 320px) {
   .masthead-brand {
     margin-top: 2px;
     margin-bottom: 4px;
   }
+
   .container-fluid {
     margin-top: 30px;
     height: 100%;
     vertical-align: middle;
   }
-  .bio-paragraph{
-  /* padding-top: 0; */
-  padding-bottom: 4em;
-  font-size: 1.3em;
-  font-family: 'Lato', Verdana, sans-serif;
-  color: aliceblue;
+
+  .bio-paragraph {
+    /* padding-top: 0; */
+    padding-bottom: 4em;
+    font-size: 1.3em;
+    font-family: 'Lato', Verdana, sans-serif;
+    color: aliceblue;
   }
 
-  .img-responsive{
-  padding-top: 0;
+  .img-responsive {
+    padding-top: 0;
   }
+
   /* #resume{
   padding-top: 0;
   } */
-
 }
+
 @media (min-width: 440px) {
-  .container-fluid{
-  margin: 30px,auto;
+  .container-fluid {
+    margin: 30px, auto;
   }
-  .img-responsive{
+
+  .img-responsive {
     padding-top: 1.5em;
     padding-bottom: 1em;
   }
+
   .bio-paragraph {
-  font-size: 1.5em;
+    font-size: 1.5em;
   }
 }
 
 @media (min-width: 768px) {
+
   /* Pull out the header and footer */
   .masthead {
     top: 5px;
   }
-.cover{
-  margin: 45% auto;
-  position: relative /* 9/30 */
+
+  .cover {
+    margin: 45% auto;
+    position: relative
+      /* 9/30 */
   }
+
   .container-fluid {
     margin: 20% auto;
   }
+
   .bio-paragraph {
     padding-bottom: 1em;
   }
-  /* Start the vertical centering */
-/*   .site-wrapper-inner {
-    vertical-align: middle;
-  } */
+
   /* Handle the widths */
   .masthead,
   .mastfoot,
   .cover-container {
-    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+    width: 100%;
+    /* Must be percentage or pixels for horizontal alignment */
   }
 }
 
 @media (min-width: 992px) {
+
   .masthead,
   .mastfoot,
   .cover-container {
-/*   width: 108%; */
     margin: 2% auto;
-    height: auto;/* 9/30 */
-/*     max-width: 1400px; */
+    height: auto;
+    /* 9/30 */
   }
- .cover{
-  margin:10% auto;
-  position: relative; /* 9/30 */
+
+  .cover {
+    margin: 25% auto;
+    position: relative;
+    /* 9/30 */
   }
+
   .container-fluid {
     margin: 14% auto;
   }
+
   h1 {
     padding-top: 0.5em;
     color: aliceblue;
   }
-  .bio-paragraph{
+
+  .bio-paragraph {
     font-size: 2em;
     padding-bottom: 2em;
     word-break: break-word;
     width: 84%;
     margin: auto;
+  }
 
-  }
   #repository {
-   padding-top: 0;
-   font-family: "Lato", Verdana, sans-serif;
-   color: aliceblue;
+    padding-top: 0;
+    font-family: "Lato", Verdana, sans-serif;
+    color: aliceblue;
   }
+
   .github {
     padding-bottom: 9em;
+  }
 }
-
-}
-
-/* Large devices (large desktops, 1200px and up) */
-/* @media (min-width:1200px) {
-   .masthead,
-  .mastfoot,
-  .cover-container {
-  width: 108%;
-    margin: 2% auto;
-    max-width: 1400px;
-  }
-  .container {
-    margin: 13% auto;
-  }
-  h1 {
-    padding-top: 2em;
-  }
-  .bio-paragraph{
-    font-size: 2em;
-    padding-bottom: 2em;
-    padding-top: 0.1em;
-  }
-  #repository {
-   padding-top: 0;
-  }
-  .github {
-    padding-bottom: 9em;
-}
-
-} */
