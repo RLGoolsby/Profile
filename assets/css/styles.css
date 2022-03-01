@@ -122,6 +122,11 @@ h1{
   font-family:  "Lato", Verdana, sans-serif;
   color: aliceblue;
 }
+ul.divide{
+  display: inline-flex;
+  margin:auto;
+  padding:0;
+}
 
 /** Web Developer **/
 /*.title{

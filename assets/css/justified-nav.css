@@ -56,6 +56,11 @@ ul{
   list-style: none;
   display: inline;
 }
+ul.divide{
+  display: inline-flex;
+  margin:auto;
+  padding:0;
+}
 
 /** Visit Site button **/
 .site{
