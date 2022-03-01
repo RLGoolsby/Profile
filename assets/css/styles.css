@@ -243,6 +243,10 @@ h1{
     /* height: 1px; */
     overflow: hidden;
 }
+#projects{
+background-color:darkgray;
+width:100%;
+}
 /** end of custom styling for Projects page
 
 /** Bootstrap Media-queries **/

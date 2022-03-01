@@ -9,11 +9,11 @@ height: 100%;
 =========================================== **/
 /** Customer styling for projects view **/
 #projects{
-  display: table;
+  /* display: table; */
     width: 100%;
-    height: 100%;
+    /* height: 100%;
     min-height: 100%;
-    box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+    box-shadow: inset 0 0 100px rgba(0,0,0,.5); */
 }
 
 .container {
@@ -115,7 +115,7 @@ ul{
   color: #777;
   text-align: center;
   background-color: #e5e5e5; /* Old browsers */
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#f5f5f5), to(#e5e5e5));
+  /* background-image: -webkit-gradient(linear, left top, left bottom, from(#f5f5f5), to(#e5e5e5)); */
   background-image: -webkit-linear-gradient(top, #f5f5f5 0%, #e5e5e5 100%);
   background-image:      -o-linear-gradient(top, #f5f5f5 0%, #e5e5e5 100%);
   background-image:         linear-gradient(to bottom, #f5f5f5 0%,#e5e5e5 100%);
