@@ -26,6 +26,9 @@ background-color:#444434;
   margin-top: 9em;
   height: 100%;
 }
+header{
+  background-image: url("/assets/css/images/elephant.png");
+}
 
 /** element id for each Repository **/
 #repository{
