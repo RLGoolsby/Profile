@@ -58,17 +58,15 @@ body {
 .masthead-nav>li {
   display: inline-block;
 }
-
 .masthead-nav>li+li {
   margin-left: 20px;
 }
-
 .masthead-nav>li>a {
   padding-right: 0;
   padding-left: 0;
-  font-size: 35px;
-  font-weight: bold;
-  color: black;
+  font-size: 33px;
+  font-weight: 500;
+  color: aliceblue;
   cursor: pointer;
 }
 
@@ -114,7 +112,12 @@ body {
   color: lightgreen;
   font-weight: 700;
 }
-
+.fa-leaf:before {
+  content: "\f06c";
+  border: 8px solid red;
+  border-radius: 50%;
+  background: darkorange;
+}
 /** My name on Home page "index.html" **/
 h1 {
   font-size: 6em;
@@ -308,8 +311,6 @@ ul.divide {
   }
 
   h1 {
-    margin-top: 1em;
-    padding-top: 2.5em;
     color: darkolivegreen;
   }
 
