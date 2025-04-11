@@ -25,9 +25,8 @@ a:hover {
  */
 body {
   /*   position: relative; */
-  color: aliceblue;
   text-align: center;
-  background-color: lightskyblue;
+  background-color: #dceef9;
   width: 100%;
   height: 100%;
   padding: 0;
