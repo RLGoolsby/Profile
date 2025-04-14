@@ -34,7 +34,7 @@ $(function () {
              
       if (scrollTop >= navbarBottom - navBarHeight) {
         if (scrollTop < maxScrollTop) {
-          sidebar.addClass('fixed').removeClass('absolute').css({ top: navBarHeight + 'px' });
+          navBar.addClass('fixed').removeClass('absolute').css({ top: navBarHeight + 'px' });
         } else {
           navBar.removeClass('fixed').addClass('absolute').css({ top: maxScrollTop - navbarBottom + navBarHeight + 'px' });
         }
