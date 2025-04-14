@@ -26,7 +26,6 @@ landing.config(function ($routeProvider) {
 });
 console.log("and again");
 
-
 $(document).ready(function () {
   $('a[href*=#]').bind('click', function (e) {
     e.preventDefault(); // prevent hard jump, the default behavior
