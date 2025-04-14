@@ -48,13 +48,13 @@ body {
  */
 
 .navigation {
-  position: fixed;
+  /* position: fixed; */
   width: 100%;
   margin: auto;
   background-color: #999;
   color: #fff;
 
-  &__link {
+  &_link {
     display: block;
     color: #ddd;
     text-decoration: none;
@@ -102,6 +102,22 @@ body {
   border-bottom-color: rgba(255, 255, 255, .25);
 }
 
+
+
+#ulMasthead {
+  position: relative;
+  margin: auto;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  background-color: #000;
+}
+
+#ulMasthead.fixed {
+  position: fixed;
+  top: 224px;
+  z-index: 10;
+}
 
 @media (min-width: 768px) {
   /* .masthead-brand {
