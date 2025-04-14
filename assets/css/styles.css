@@ -48,11 +48,13 @@ body {
  */
 
 .navigation {
-  /* position: fixed; */
   width: 100%;
-  margin: auto;
-  background-color: #999;
-  color: #fff;
+  float: left;
+  position: relative;
+  padding: 0;
+  margin: 1% 0 0 0;
+  height: auto;
+  max-width: 23em;
 
   &_link {
     display: block;
@@ -72,10 +74,10 @@ body {
   }
 }
 
-.masthead-brand {
+/* .masthead-brand {
   margin-top: 10px;
   margin-bottom: 12px;
-}
+} */
 
 /* .navbar-default {
   background-color: #000 !important;
@@ -105,17 +107,28 @@ body {
 
 
 #ulMasthead {
-  position: relative;
-  margin: auto;
+  width: 100%;
+  background: #000;
+  color: #fff;
+  margin: 1% 0 0 0;
   padding: 0;
-  list-style: none;
-  text-align: center;
-  background-color: #000;
+  min-height: 12em;
+  max-width: 23em;
+  position: sticky;
+  padding: 0;
+  z-index: 10;
+  border: 3px solid;
 }
 
 #ulMasthead.fixed {
   position: fixed;
-  top: 224px;
+  top: 24px;
+  z-index: 10;
+}
+
+#ulMasthead.absolute {
+  position: fixed;
+  top: 24px;
   z-index: 10;
 }
 

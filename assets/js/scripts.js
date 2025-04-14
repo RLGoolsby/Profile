@@ -1,7 +1,7 @@
 
 $(function () {
     var navBar = $('#ulMasthead');
-    var navBarHeight = 224; // Fixed top position of the sidebar when fixed
+    var navBarHeight = 24; // Fixed top position of the sidebar when fixed
     // var footerBuffer = 60;  // A small buffer to prevent overlap with the footer
     var marginAdjustment = 10; //Margin adjustment to align content correctly
 
