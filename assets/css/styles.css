@@ -49,45 +49,44 @@ body {
 
 .navigation {
   width: 100%;
-  float: left;
   position: relative;
   padding: 0;
   margin: 1% 0 0 0;
   height: auto;
   max-width: 23em;
-
-  &_link {
-    display: block;
-    color: #ddd;
-    text-decoration: none;
-    padding: 1em;
-    font-weight: 400;
-
-    &:hover {
-      background-color: #aaa;
-    }
-
-    &.active {
-      color: white;
-      background-color: rgba(0, 0, 0, 0.1);
-    }
-  }
 }
 
-/* .masthead-brand {
+.navigation.link {
+  display: block;
+  color: #ddd;
+  text-decoration: none;
+  padding: 1em;
+  font-weight: 400;
+}
+
+.navigation:hover {
+  background-color: #aaa;
+}
+
+.navigation.active {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+.masthead-brand {
   margin-top: 10px;
   margin-bottom: 12px;
-} */
+}
 
-/* .navbar-default {
+.navbar-default {
   background-color: #000 !important;
   border-color: #e7e7e7;
-} */
+}
 
 .masthead-nav>li>a {
   list-style: none;
   display: inline-flex;
-  width: 33%;
   justify-content: space-evenly;
   padding: 0;
   margin: auto;
@@ -113,29 +112,29 @@ body {
   margin: 1% 0 0 0;
   padding: 0;
   min-height: 12em;
-  max-width: 23em;
-  position: sticky;
+  max-width: 100%;
   padding: 0;
   z-index: 10;
   border: 3px solid;
 }
 
-#ulMasthead.fixed {
-  position: fixed;
-  top: 24px;
+.masthead {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
   z-index: 10;
-}
-
-#ulMasthead.absolute {
-  position: fixed;
-  top: 24px;
-  z-index: 10;
+  padding: 0;
+  margin: 0;
+  height: auto;
+  max-width: 100%;
+  background-color: #000;
 }
 
 @media (min-width: 768px) {
-  /* .masthead-brand {
+  .masthead-brand {
     margin: auto;
-  } */
+  }
 
   /* .navigation {
     float: right;
@@ -325,7 +324,7 @@ ul.divide {
   }
 
   .container-fluid {
-    /* margin: 20% auto; */
+    margin: auto;
   }
 
   .bio-paragraph {
@@ -356,9 +355,6 @@ ul.divide {
     /* 9/30 */
   }
 
-  .container-fluid {
-    /* margin: 14% auto; */
-  }
 
   h1 {
     color: darkolivegreen;
