@@ -94,10 +94,15 @@ nav a:active {
   transform: scale(1.1);
 }
 
-/* .content-section {
-  min-height: 100vh;
-
-} */
+section .content-section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.8rem;
+  background-size: cover;
+  background-position: center;
+}
 
 
 
