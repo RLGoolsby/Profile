@@ -1,46 +1,42 @@
 /** This is a style sheet from bootstrap css that goes with the formating of the
     projects view.  I have added some custom elements for styling of specific html tags. **/
-body{
-height: 100%;
-background-color: lightskyblue;
-/* position:fixed; */
-}
 
 /** ===========================================
 =========================================== **/
 /** Customer styling for projects view **/
-#projects{
+#projects {
   /* display: table; */
-    width: 100%;
-    /* height: 100%;
+  width: 100%;
+  /* height: 100%;
     min-height: 100%;
     box-shadow: inset 0 0 100px rgba(0,0,0,.5); */
 }
 
-.container-fluid {
+/* .container-fluid {
   width: 100%;
   height: 100%;
   vertical-align: middle;
   margin: auto;
-}
+} */
 
-.row{
+/* 
+.row {
   margin-top: 9em;
   height: 100%;
-}
+} */
 
 
 /** element id for each Repository **/
-#repository{
-  padding-top: 3em;
+.repository {
+  /* padding-top: 3em;
   padding-bottom: 0.5em;
   font-size: 3em;
-  font-family:  "Lato", Verdana, sans-serif;
+  font-family: "Lato", Verdana, sans-serif; */
 
 }
 
 /** Description of Repository **/
-p{
+/* p {
   text-align: center;
   color: darkolivegreen;
   padding-top: 1em;
@@ -48,29 +44,31 @@ p{
   letter-spacing: 1px;
   font-size: 1.5em;
   font-family: "Lato", Verdana, sans-serif;
-}
+} */
 
 
 /** used to wrap "site" and "github" buttons **/
-ul{
+/* ul {
   list-style: none;
   display: inline;
 }
-ul.divide{
+
+ul.divide {
   display: inline-flex;
-  margin:auto;
-  padding:0;
-}
+  margin: auto;
+  padding: 0;
+} */
 
 /** Visit Site button **/
-.site{
-  padding-bottom: 24px;
+.site {
+  /* padding-bottom: 24px; */
 }
 
 /** Github button **/
-.github{
-  padding-bottom: 6em;
+.github {
+  /* padding-bottom: 6em; */
 }
+
 /** end of custom styling for projects page **/
 /** =========================================== **/
 
@@ -78,66 +76,72 @@ ul.divide{
 /** Bootstrap Styling **/
 /** styling for buttons **/
 .btn-primary {
-    color: #fff;
-    background-color: #337ab7;
-    border-color: #2e6da4;
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #2e6da4;
 }
 
 .btn {
-    display: inline-block;
-    padding: 6px 12px;
-    margin-bottom: 0;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 1.42857143;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    -ms-touch-action: manipulation;
-    touch-action: manipulation;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    background-image: none;
-    border: 1px solid transparent;
-    border-radius: 4px;
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
 }
 
 /* Customize the nav-justified links to be fill the entire space of the .navbar */
 
-.nav-justified {
+/* .nav-justified {
   background-color: #eee;
   border: 1px solid #ccc;
   border-radius: 5px;
-}
-.nav-justified > li > a {
-  padding-top: 15px;
+} */
+
+.nav-justified>li>a {
+  /* padding-top: 15px;
   padding-bottom: 15px;
   margin-bottom: 0;
   font-weight: bold;
   color: #777;
   text-align: center;
-  background-color: #e5e5e5; /* Old browsers */
-  background-repeat: repeat-x; /* Repeat the gradient */
-  border-bottom: 1px solid #d5d5d5;
+  background-color: #e5e5e5; */
+  /* Old browsers */
+  /* background-repeat: repeat-x; */
+  /* Repeat the gradient */
+  /* border-bottom: 1px solid #d5d5d5; */
 }
-.nav-justified > .active > a,
-.nav-justified > .active > a:hover,
-.nav-justified > .active > a:focus {
+
+/* .nav-justified>.active>a,
+.nav-justified>.active>a:hover,
+.nav-justified>.active>a:focus {
   background-color: #ddd;
   background-image: none;
-  -webkit-box-shadow: inset 0 3px 7px rgba(0,0,0,.15);
-          box-shadow: inset 0 3px 7px rgba(0,0,0,.15);
+  -webkit-box-shadow: inset 0 3px 7px rgba(0, 0, 0, .15);
+  box-shadow: inset 0 3px 7px rgba(0, 0, 0, .15);
 }
-.nav-justified > li:first-child > a {
+
+.nav-justified>li:first-child>a {
   border-radius: 5px 5px 0 0;
 }
-.nav-justified > li:last-child > a {
+
+.nav-justified>li:last-child>a {
   border-bottom: 0;
   border-radius: 0 0 5px 5px;
-}
+} */
 
 /** saving the footer incase I want to use it later **/
 /*.footer {
@@ -148,33 +152,38 @@ ul.divide{
 }*/
 
 @media (min-width: 768px) {
-  .nav-justified {
-    max-height: 52px;
-  }
-  .nav-justified > li > a {
-    border-right: 1px solid #d5d5d5;
-    border-left: 1px solid #fff;
-  }
-  .nav-justified > li:first-child > a {
-    border-left: 0;
-    border-radius: 5px 0 0 5px;
-  }
-  .nav-justified > li:last-child > a {
-    border-right: 0;
-    border-radius: 0 5px 5px 0;
-  }
+  /* .nav-justified {
+    max-height: 52px; */
+}
+
+.nav-justified>li>a {
+  /* border-right: 1px solid #d5d5d5;
+    border-left: 1px solid #fff; */
+}
+
+.nav-justified>li:first-child>a {
+  /* border-left: 0;
+    border-radius: 5px 0 0 5px; */
+}
+
+.nav-justified>li:last-child>a {
+  /* border-right: 0;
+    border-radius: 0 5px 5px 0; */
+}
 }
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
+
   /* Remove the padding we set earlier */
   .masthead,
   .marketing,
   .footer {
-    padding-right: 50px;
+    /* padding-right: 50px;
     padding-left: 50px;
-    position: relative;
+    position: relative; */
   }
 
 }
+
 /** end of Bootstrap **/
