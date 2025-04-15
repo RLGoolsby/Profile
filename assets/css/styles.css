@@ -41,7 +41,7 @@ body {
   /* background-color: darkgreen; */
 }
 
-.container-fluid {
+.content {
   position: relative;
   width: 100%;
   height: 100%;
@@ -106,26 +106,23 @@ nav a:active {
   transform: scale(1.1);
 }
 
-section {
+.content-section {
   height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 1.8rem;
-  background-size: cover;
-  background-position: center;
+
 }
+
+
 
 #home {
   background-image: url("https://images.unsplash.com/photo-1488998427799-e3362cec87c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80");
-  background-attachment: fixed;
+
 }
 
 #bio {
   background-image: url("https://images.unsplash.com/photo-1512580770426-cbed71c40e94?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1807&q=80");
 }
 
-#features {
+#projects {
   background-image: linear-gradient(45deg,
       #fff,
       rgba(0, 0, 0, 0.7),
