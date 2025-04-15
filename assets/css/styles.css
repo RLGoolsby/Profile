@@ -357,14 +357,23 @@ section {
 
 /** image **/
 .img-responsive {
-  max-width: 50%;
-  height: auto;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
 .image-container {
-  width: 50%;
-  height: 50%;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  /* Add these for images */
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 
 /** Resume button **/
 /* #resume {
