@@ -46,11 +46,11 @@ a:hover {
 body {
   position: relative;
   text-align: center;
-  background-color: #dceef9;
-  width: 100%;
+  /* background-color: #dceef9; */
+  /* width: 100%;
   height: 100%;
   padding: 0;
-  margin: 0;
+  margin: 0; */
   /* background-color: darkgreen; */
 }
 
@@ -109,8 +109,8 @@ nav a:active {
 }
 
 section {
-  height: 100vh;
-  display: flex;
+  min-height: 100vh;
+  /* display: flex; */
   justify-content: center;
   align-items: center;
   background-size: cover;
