@@ -44,12 +44,9 @@ body {
 
 .content {
   /* position: relative; */
-  width: 100%;
-  height: 100%;
-  vertical-align: middle;
-  margin: auto;
-  min-height: 100vh
-    /* background-color: darkgray; */
+  height: 100vh;
+  margin-top: 30px;
+  /* background-color: darkgray; */
 }
 
 /* Header */
