@@ -115,16 +115,15 @@ fa-brands,
 }
 
 .grid-section {
-  max-width: 1200px;
-  margin: 30px auto;
-  padding: 0 20px;
+  max-width: 1280px;
+  padding: 1em;
   width: 100%;
   display: grid;
-  /* Define Auto Row size */
   grid-auto-rows: 100px;
-  /*Define our columns */
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-gap: 1em;
+  align-items: center;
+  justify-items: stretch;
 }
 
 .column {
@@ -139,6 +138,54 @@ fa-brands,
 
 .column:nth-child(even) {
   background-color: #afbe29;
+}
+
+.repository {
+  font-size: 1.5em;
+  font-family: "Lato", Verdana, sans-serif;
+  color: darkolivegreen;
+  padding: 1em;
+}
+
+.repository-description {
+  padding: 1em;
+  margin: auto;
+  font-size: 1.1em;
+}
+
+ul.repository-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+#bio {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  margin: auto;
+}
+
+/** Self explanatory **/
+.bio-paragraph {
+  vertical-align: middle;
+  text-align: center;
+  font-size: 1.2em;
+  font-family: "Lato", Verdana, sans-serif;
+  padding: 2em;
+  color: #fff;
+  word-wrap: break-word;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.site {
+  padding-bottom: 1em;
+}
+
+.github {
+  padding-bottom: 1em;
 }
 
 /* 
@@ -494,11 +541,7 @@ fa-brands,
     margin: auto;
   } */
 
-.repository {
-  font-size: 1.5em;
-  font-family: "Lato", Verdana, sans-serif;
-  color: darkolivegreen;
-}
+
 
 
 
