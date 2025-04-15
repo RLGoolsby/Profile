@@ -47,7 +47,8 @@ body {
   height: 100%;
   vertical-align: middle;
   margin: auto;
-  /* background-color: darkgray; */
+  min-height: 100vh
+    /* background-color: darkgray; */
 }
 
 /* Header */
@@ -66,23 +67,10 @@ header.sticky {
 }
 
 
-.content {
+/* .content {
   height: 100vh;
   margin-top: 30px;
-}
-
-h2 {
-  background-image: linear-gradient(45deg,
-      #000,
-      rgba(0, 0, 0, 0.6),
-      rgba(0, 0, 0, 0.3));
-  background-size: 100%;
-
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-  text-transform: uppercase;
-  font-size: 1.8em;
-}
+} */
 
 nav {
   display: flex;
@@ -106,20 +94,30 @@ nav a:active {
   transform: scale(1.1);
 }
 
-.content-section {
+/* .content-section {
   min-height: 100vh;
 
-}
+} */
 
 
 
 #home {
-  background-image: url("https://images.unsplash.com/photo-1488998427799-e3362cec87c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80");
-
+  background-image: linear-gradient(45deg,
+      #fff,
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 1));
 }
 
-#bio {
-  background-image: url("https://images.unsplash.com/photo-1512580770426-cbed71c40e94?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1807&q=80");
+#bio>h2 {
+  background-color: tranparent;
+}
+
+#bio>h2 {
+  background-image: linear-gradient(45deg,
+      #000,
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.4),
+      #000);
 }
 
 #projects {
@@ -129,23 +127,6 @@ nav a:active {
       rgba(0, 0, 0, 1));
 }
 
-/* #shop {
-  background-image: url("https://images.unsplash.com/photo-1556742111-a301076d9d18?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80");
-
-  background-attachment: fixed;
-}
-
-#about {
-  background-image: url("https://images.unsplash.com/39/lIZrwvbeRuuzqOoWJUEn_Photoaday_CSD%20%281%20of%201%29-5.jpg?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80");
-}
-
-#about>h2 {
-  background-image: linear-gradient(45deg,
-      #000,
-      rgba(0, 0, 0, 0.8),
-      rgba(0, 0, 0, 0.4),
-      #000);
-} */
 /* .navigation {
   width: 100%;
   position: relative;
@@ -268,11 +249,11 @@ nav a:active {
 } */
 
 /** My name on Home page "index.html" **/
-h1 {
+/* h1 {
   font-size: 6em;
   font-family: "Lato", Verdana, sans-serif;
   color: rgb(55, 69, 30);
-}
+} */
 
 /* ul.divide {
   display: inline-flex;
@@ -335,11 +316,10 @@ h1 {
 /** SVG image **/
 .img-responsive {
   margin: auto;
-  display: block;
   width: 100% \9;
   height: auto;
-  padding-top: 3.5em;
-  padding-bottom: 3.5em;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 
 /** Resume button **/
@@ -356,9 +336,9 @@ h1 {
   overflow: hidden;
 } */
 
-#projects {
+/* #projects {
   width: 100%;
-}
+} */
 
 /** end of custom styling for Projects page
 
@@ -380,15 +360,15 @@ h1 {
 
   .bio-paragraph {
     /* padding-top: 0; */
-    padding-bottom: 4em;
+    /* padding-bottom: 4em; */
     font-size: 1.3em;
     font-family: 'Lato', Verdana, sans-serif;
     color: darkolivegreen;
   }
 
-  .img-responsive {
+  /* .img-responsive {
     padding-top: 0;
-  }
+  } */
 
   /* #resume{
   padding-top: 0;
@@ -400,14 +380,14 @@ h1 {
     margin: 30px, auto;
   } */
 
-  .img-responsive {
+  /* .img-responsive {
     padding-top: 1.5em;
     padding-bottom: 1em;
-  }
+  } */
 
-  .bio-paragraph {
+  /* .bio-paragraph {
     font-size: 1.5em;
-  }
+  } */
 }
 
 @media (min-width: 768px) {
@@ -427,9 +407,9 @@ h1 {
     margin: auto;
   } */
 
-.bio-paragraph {
+/* .bio-paragraph {
   padding-bottom: 1em;
-}
+} */
 
 /* Handle the widths */
 /* .masthead,
@@ -442,45 +422,44 @@ h1 {
 
 @media (min-width: 992px) {
 
-  .masthead,
+  /* .masthead,
   .mastfoot,
   .cover-container {
     margin: 2% auto;
-    height: auto;
-    /* 9/30 */
-  }
+    height: auto; */
+  /* 9/30 */
+}
 
-  .cover {
-    margin: 16%;
-    /* 9/30 */
-  }
+/* .cover {
+    margin: 16%; */
+
+/* } */
 
 
-  h1 {
+/* h1 {
     color: darkolivegreen;
-  }
+  } */
 
-  .bio-paragraph {
+/* .bio-paragraph {
     font-size: 2em;
     padding-bottom: 1em;
     word-break: break-word;
     width: 84%;
     margin: auto;
-  }
+  } */
 
-  #repository {
-    padding-top: 0;
-    font-family: "Lato", Verdana, sans-serif;
-    color: darkolivegreen;
-  }
+#repository {
+  padding-top: 0;
+  font-family: "Lato", Verdana, sans-serif;
+  color: darkolivegreen;
+}
 
-  .github {
-    padding-bottom: 9em;
-  }
+.github {
+  padding-bottom: 9em;
 }
 
 @media screen and (max-width: 768px) {
-  h1 {
+  /* h1 {
     margin-top: 1.2em;
-  }
+  } */
 }
