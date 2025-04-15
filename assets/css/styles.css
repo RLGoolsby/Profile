@@ -42,7 +42,7 @@ body {
 }
 
 .content {
-  position: relative;
+  /* position: relative; */
   width: 100%;
   height: 100%;
   vertical-align: middle;
@@ -66,7 +66,7 @@ header.sticky {
 }
 
 
-.container-fluid {
+.content {
   height: 100vh;
   margin-top: 30px;
 }
@@ -107,7 +107,7 @@ nav a:active {
 }
 
 .content-section {
-  height: 100vh;
+  min-height: 100vh;
 
 }
 
@@ -280,17 +280,17 @@ h1 {
   padding: 0;
 } */
 
-.title {
+/* .title {
   font-size: 4.5em;
   padding: 10px;
   margin-top: 20px;
   color: rgb(49, 62, 27);
-}
+} */
 
-.links {
+/* .links {
   margin-top: 65px;
   font-size: 25px;
-}
+} */
 
 /** Links **/
 /* .fa.fa-github {
