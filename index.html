@@ -95,7 +95,7 @@
       <span><i class="fa-solid fa-users-between-lines" aria-hidden="true"></i></span>
       <h2 class="title">Frontend Web Developer</h2>
       <div class="links">
-        <a target="_tab" href="https://github.com/rlgoolsby"><i class="fa-brands fa-square-github"
+        <a target="_tab" href="https://github.com/rlgoolsby"><i class="fa-brands fa-github fa-lg"
             aria-hidden="true"></i></a></li>
         <a target="_tab" href="https://www.linkedin.com/in/rgoolsbyfwd/"><i class="fa-brands fa-linkedin"
             aria-hidden="true"></i></a></li>
@@ -109,24 +109,32 @@
         I'm a Web Developer who enjoys helping all people turn their abstract ideas
         into aesthetically functional reality.</h2>
         <picture class="image-container">
-      <img class="img-responsive"src="assets/css/images/RHONDA-3.jpg" alt="profile-me" width="100" 
-        style="border-radius: 50%">
-        </picture>
-
-      <!-- A button that allows you to download a copy of my Resume -->
-      <!-- <div id="resume"> -->
-
-      <!--<a target="_tab" href=""  class="btn btn-primary active" role="button">Resume
-                     <span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span></a>
-                   </div>-->
-
+								<source
+									srcset="assets/css/images/profile-25.webp"
+									type="images/webp"
+									loading="lazy"
+									decoding="asynchronous" />
+								<source
+									srcset="assets/css/images/profile-25.jpeg"
+									type="images/jpeg"
+									loading="lazy"
+									decoding="asynchronous" />
+								<img
+									class="img-responsive"
+									src="assets/css/images/profile-25.jpeg"
+								  alt="profile-me"
+									loading="lazy"
+									decoding="asynchronous" />
+							</picture>
     </section>
+
+
 
     <section id="projects">
       <div class="grid-section">
         <!-- Nested Accordion -->
         <div class="column one">
-          <div class="respository" id="seasonal">Seasonal Crops</div>
+          <div class="repository" id="seasonal">Seasonal Crops</div>
 
           <p>
             Nested Accordion<br />
@@ -148,7 +156,7 @@
 
         <!-- Responsive-Icon-Grid -->
         <div class="column two">
-          <div class="respository" id="icon-grid">Responsive-Icon-Grid</div>
+          <div class="repository" id="icon-grid">Responsive-Icon-Grid</div>
 
           <p>
             CSS Transition/Transform Exercise<br />
@@ -168,7 +176,7 @@
         </div>
         <!-- Image Slider -->
         <div class="column three">
-          <div class="respository" id="imgslider">Image Slider</div>
+          <div class="repository" id="imgslider">Image Slider</div>
 
           <p>
             some words I am putting here for now "visit site"
@@ -197,7 +205,11 @@
     ================================================== -->
   <!-- Placed at the end of the document so the pages load faster -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-
+<script
+		src="https://cdnjs.cloudflare.com/ajax/libs/jquery-image-upload/1.2.0/jQuery-image-upload.min.js"
+		integrity="sha512-gjAPD4any3q9ITk7sa4tW8nnLnMWWoRUrghwbD92d5HfGBPEgry+n/6272BNZA/B5/kqD+3xnq7e5or2Jp5PEA=="
+		crossorigin="anonymous"
+		referrerpolicy="no-referrer"></script>
 
   <!-- for template/views-routing -->
 

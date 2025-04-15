@@ -109,6 +109,11 @@ section {
   flex-wrap: wrap;
 }
 
+fa-brands,
+.fab {
+  font-weight: 500;
+}
+
 .grid-section {
   max-width: 1200px;
   margin: 30px auto;
