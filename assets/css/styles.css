@@ -16,6 +16,7 @@ a:hover {
   color: #fff;
 }
 
+
 /* Custom default button */
 .btn-default,
 .btn-default:hover,
@@ -66,11 +67,17 @@ header.sticky {
   padding: 0;
 }
 
+.cover-heading {
+  font-size: 6em;
+  margin: auto;
+}
 
-/* .content {
-  height: 100vh;
-  margin-top: 30px;
-} */
+.title {
+  font-size: 4.5em;
+  padding: 10px;
+  margin-top: 20px;
+  color: rgb(49, 62, 27);
+}
 
 nav {
   display: flex;
@@ -94,7 +101,7 @@ nav a:active {
   transform: scale(1.1);
 }
 
-section .content-section {
+section {
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -113,16 +120,14 @@ section .content-section {
       rgba(0, 0, 0, 1));
 }
 
-#bio>h2 {
-  background-color: tranparent;
-}
 
-#bio>h2 {
+
+#bio {
   background-image: linear-gradient(45deg,
-      #000,
+      #fff,
       rgba(0, 0, 0, 0.8),
-      rgba(0, 0, 0, 0.4),
-      #000);
+      rgba(0, 0, 0, 0.4));
+
 }
 
 #projects {
