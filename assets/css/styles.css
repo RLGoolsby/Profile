@@ -98,7 +98,7 @@ nav a:active {
 
 section {
   min-height: 100vh;
-  /* display: flex; */
+  display: flex;
   justify-content: center;
   align-items: center;
   background-size: cover;
@@ -495,9 +495,7 @@ section {
   color: darkolivegreen;
 }
 
-.github {
-  /* padding-bottom: 9em; */
-}
+
 
 @media screen and (max-width: 768px) {
   /* h1 {
