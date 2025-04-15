@@ -490,13 +490,13 @@ section {
   } */
 
 .repository {
-  padding-top: 0;
+  font-size: 1.5em;
   font-family: "Lato", Verdana, sans-serif;
   color: darkolivegreen;
 }
 
 .github {
-  padding-bottom: 9em;
+  /* padding-bottom: 9em; */
 }
 
 @media screen and (max-width: 768px) {
