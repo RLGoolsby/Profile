@@ -381,24 +381,31 @@ ul.repository-list {
   height: 100%;
   overflow: auto;
   margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
 }
 
 /** Self explanatory **/
 
 
 .bio-paragraph {
+  font-family: "Lato", Verdana, sans-serif;
   vertical-align: middle;
   text-align: left;
   font-size: 18px;
-  font-family: "Lato", Verdana, sans-serif;
-  padding: 1em;
   color: #fff;
   word-wrap: break-word;
+  width: 60%;
+  padding: 1.3em;
+  outline: -1px solid hsl(0, 0%, 60%);
+  box-shadow: 0 0 0 38px hsl(0deg 1.38% 11.88% / 9%), 0 0 0 6px hsl(0deg 3% 12.15% / 57%), 0 0 0 21px hsl(0deg 2.33% 19.84% / 31%);
+  line-height: normal !important;
   font-weight: 300;
   letter-spacing: 1px;
-  width: 50%;
-  background-color: #0a0a0a1f;
-  line-height: normal !important;
 }
 
 /** image **/
@@ -410,15 +417,12 @@ ul.repository-list {
 }
 
 .image-container {
-  width: 320px;
-  height: 320px;
+  width: 280px;
+  height: 280px;
   border-radius: 50%;
-  /* Add these for images */
   overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  margin: 0;
+  box-shadow: 0 0 0 38px hsl(0deg 1.87% 11.55% / 12%), 0 0 0 15px #020202;
 }
 
 
