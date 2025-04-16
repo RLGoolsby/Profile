@@ -419,6 +419,7 @@ ul.repository-list {
   letter-spacing: 1px;
   text-align: left;
   font-size: 18px;
+  padding: 0.2em 0em;
 }
 
 /** image **/
