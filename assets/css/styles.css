@@ -219,26 +219,66 @@ ul.repository-list {
   text-align: center;
 }
 
+
+/** Self explanatory **/
 #bio {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  margin: auto;
   display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-evenly;
+  flex-direction: row;
+  justify-content: center;
   flex-wrap: wrap;
   align-items: center;
   align-content: center;
 }
 
 /** Self explanatory **/
-.bio-paragraph {
-  vertical-align: middle;
-  text-align: center;
-  font-size: 1.2em;
-  font-family: "Lato", Verdana, sans-serif;
-  padding: 2em;
+/* .about-me {
+  font-size: 20px;
   color: #fff;
+  font-family: "Lato", Verdana, sans-serif;
+  margin: auto;
+} */
+.bio-description-wrapper {
+  /* font-family: "Lato", Verdana, sans-serif; */
+  /* vertical-align: middle; */
+  /* text-align: left;
+  font-size: 18px; */
+  color: #fff;
+  background-color: #010101a3;
   word-wrap: break-word;
-  font-weight: 500;
+  width: 60%;
+  padding: 2.5em;
+  box-shadow: 0 0 0 38px hsl(0deg 1.38% 11.88% / 9%), 0 0 0 6px hsl(0deg 3% 12.15% / 57%), 0 0 0 21px hsl(0deg 2.33% 19.84% / 31%);
+}
+
+.bio-description {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
   letter-spacing: 1px;
+  text-align: left;
+  font-size: 18px;
+  padding: 2px 0px;
+}
+
+/** image **/
+.img-responsive {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.image-container {
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0;
+  box-shadow: 0 0 0 38px hsl(0deg 1.87% 11.55% / 12%), 0 0 0 15px #020202;
 }
 
 .site {
@@ -436,7 +476,7 @@ ul.repository-list {
 =========================================== **/
 /** Custom styling for Bio page **/
 /**  Bio.html view **/
-#bio {
+/* #bio {
   width: 100%;
   height: 100%;
   overflow: auto;
@@ -449,56 +489,11 @@ ul.repository-list {
   align-content: center;
 }
 
-/** Self explanatory **/
-.about-me {
-  font-size: 20px;
-  color: #fff;
-  font-family: "Lato", Verdana, sans-serif;
-  margin: auto;
-}
 
-.bio-description-wrapper {
-  /* font-family: "Lato", Verdana, sans-serif; */
-  /* vertical-align: middle; */
-  /* text-align: left;
-  font-size: 18px; */
-  color: #fff;
-  background-color: #010101a3;
-  word-wrap: break-word;
-  width: 60%;
-  padding: 2.5em;
-  box-shadow: 0 0 0 38px hsl(0deg 1.38% 11.88% / 9%), 0 0 0 6px hsl(0deg 3% 12.15% / 57%), 0 0 0 21px hsl(0deg 2.33% 19.84% / 31%);
 
-  /* font-weight: 300;
-  letter-spacing: 1px; */
-}
 
-.bio-description {
-  font-family: "Lato", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  letter-spacing: 1px;
-  text-align: left;
-  font-size: 18px;
-  padding: 2px 0px;
-}
 
-/** image **/
-.img-responsive {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
-}
 
-.image-container {
-  width: 280px;
-  height: 280px;
-  border-radius: 50%;
-  overflow: hidden;
-  margin: 0;
-  box-shadow: 0 0 0 38px hsl(0deg 1.87% 11.55% / 12%), 0 0 0 15px #020202;
-}
 
 
 /** Resume button **/
@@ -537,13 +532,7 @@ ul.repository-list {
     vertical-align: middle;
   } */
 
-  .bio-paragraph {
-    /* padding-top: 0; */
-    /* padding-bottom: 4em; */
-    font-size: 1.3em;
-    font-family: 'Lato', Verdana, sans-serif;
-    color: darkolivegreen;
-  }
+
 
   /* .img-responsive {
     padding-top: 0;
