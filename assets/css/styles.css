@@ -399,9 +399,9 @@ ul.repository-list {
 
 .bio-description-wrapper {
   /* font-family: "Lato", Verdana, sans-serif; */
-  vertical-align: middle;
-  text-align: left;
-  font-size: 18px;
+  /* vertical-align: middle; */
+  /* text-align: left;
+  font-size: 18px; */
   color: #fff;
   background-color: #010101a3;
   word-wrap: break-word;
@@ -409,8 +409,8 @@ ul.repository-list {
   padding: 2em;
   box-shadow: 0 0 0 38px hsl(0deg 1.38% 11.88% / 9%), 0 0 0 6px hsl(0deg 3% 12.15% / 57%), 0 0 0 21px hsl(0deg 2.33% 19.84% / 31%);
   line-height: normal !important;
-  font-weight: 300;
-  letter-spacing: 1px;
+  /* font-weight: 300;
+  letter-spacing: 1px; */
 }
 
 .bio-description {
@@ -419,7 +419,7 @@ ul.repository-list {
   letter-spacing: 1px;
   text-align: left;
   font-size: 18px;
-  padding: 0.2em 0em;
+  padding: 2px 0px;
 }
 
 /** image **/
