@@ -390,10 +390,15 @@ ul.repository-list {
 }
 
 /** Self explanatory **/
-
-
-.bio-paragraph {
+.about-me {
+  font-size: 20px;
+  color: #fff;
   font-family: "Lato", Verdana, sans-serif;
+  margin: auto;
+}
+
+.bio-description-wrapper {
+  /* font-family: "Lato", Verdana, sans-serif; */
   vertical-align: middle;
   text-align: left;
   font-size: 18px;
@@ -402,11 +407,18 @@ ul.repository-list {
   word-wrap: break-word;
   width: 60%;
   padding: 2em;
-  outline: -1px solid hsl(0, 0%, 60%);
   box-shadow: 0 0 0 38px hsl(0deg 1.38% 11.88% / 9%), 0 0 0 6px hsl(0deg 3% 12.15% / 57%), 0 0 0 21px hsl(0deg 2.33% 19.84% / 31%);
   line-height: normal !important;
   font-weight: 300;
   letter-spacing: 1px;
+}
+
+.bio-description {
+  font-family: sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-align: left;
+  font-size: 18px;
 }
 
 /** image **/
