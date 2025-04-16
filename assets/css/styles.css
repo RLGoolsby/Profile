@@ -114,14 +114,14 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
-  padding: 15px 0;
+  padding: 20px 0;
   background-color: rgba(0, 0, 0, 1);
   transition: background-color 0.5s, padding 1s;
 }
 
 header.sticky {
   background-color: rgba(0, 0, 0, 0.9);
-  padding: 0;
+
 }
 
 .cover-heading {
@@ -138,7 +138,7 @@ nav {
   display: flex;
   justify-content: space-around;
   text-align: center;
-  padding: 20px;
+  padding: 20px 0px;
 }
 
 nav a:link,
@@ -287,6 +287,10 @@ ul.repository-list {
 
 .github {
   padding-bottom: 1em;
+}
+
+#contact {
+  background-color: #000;
 }
 
 /* 

@@ -1,8 +1,9 @@
-window.onscroll = function () {
-  var header = document.querySelector("header");
-  if (window.pageYOffset > 0) {
-    header.classList.add("sticky");
+$(window).on("scroll", function () {
+  var $header = $("header");
+
+  if ($(this).scrollTop() > 0) {
+    $header.addClass("sticky");
   } else {
-    header.classList.remove("sticky");
+    $header.removeClass("sticky");
   }
-};
+});
