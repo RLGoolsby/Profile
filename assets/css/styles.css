@@ -9,6 +9,14 @@
   scroll-behavior: smooth;
 }
 
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
 .lato-thin {
   font-family: "Lato", sans-serif;
   font-weight: 100;
@@ -102,17 +110,22 @@ a:hover {
 
 
 
-.content .bg-1 {
+.content-wrapper {
   /* position: relative; */
   height: 100vh;
   margin-top: 30px;
   /* background-color: darkgray; */
-  background: #2d2d30;
+}
 
+.intro-body {
+  position: relative;
+  height: 100vh;
+  margin-top: 30px;
+  /* background-color: darkgray; */
 }
 
 /* Header */
-header {
+/* header {
   position: fixed;
   top: 0;
   width: 100%;
@@ -124,6 +137,21 @@ header {
 header.sticky {
   background-color: rgba(0, 0, 0, 0.9);
 
+} */
+
+header .intro {
+  width: 100%;
+  height: auto;
+  padding-top: 250px;
+  padding-bottom: 350px;
+  text-align: center;
+  color: #fff;
+  background-color: #000;
+  background: url("https://www.dropbox.com/s/f2weiagmo74sfjh/Lonely%20Tree.png?raw=1") no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
 }
 
 .cover-heading {
@@ -136,15 +164,15 @@ header.sticky {
   color: rgb(49, 62, 27);
 }
 
-nav {
+/* nav .topNav {
   display: flex;
   justify-content: space-around;
   text-align: center;
   padding: 20px 0px;
 }
 
-nav a:link,
-nav a:visited {
+nav .topNav li a:link,
+nav .topNav li a:visited {
   color: #fff;
   font-size: 0.9em;
   text-transform: uppercase;
@@ -152,14 +180,127 @@ nav a:visited {
   padding: 5px;
 }
 
-nav a:hover,
-nav a:active {
+nav .topNav li a:hover,
+nav .topNav li a:active {
   color: #aaa;
   transform: scale(1.1);
 }
 
-section .b1 {
 
+
+
+
+.burgerMenu i {
+  color: #042259;
+  visibility: hidden;
+} */
+
+a {
+  color: #adebeb;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+  color: #42dca3;
+}
+
+.light {
+  font-weight: 400;
+}
+
+.logoInitial {
+  font-size: 1.5em;
+}
+
+.fa-code {
+  font-size: 1.4em;
+  margin-right: 7px;
+}
+
+.navbar-custom {
+  margin-bottom: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, .3);
+  text-transform: uppercase;
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: #000;
+}
+
+.navbar-custom .navbar-brand {
+  font-weight: 700;
+}
+
+.navbar-custom .navbar-brand:focus {
+  outline: 0;
+}
+
+.navbar-custom .navbar-brand .navbar-toggle {
+  padding: 4px 6px;
+  font-size: 16px;
+  color: #fff;
+}
+
+.navbar-custom .navbar-brand .navbar-toggle:focus,
+.navbar-custom .navbar-brand .navbar-toggle:active {
+  outline: 0;
+}
+
+.navbar-custom a {
+  color: #fff;
+}
+
+.navbar-custom .nav li a {
+  -webkit-transition: background .3s ease-in-out;
+  -moz-transition: background .3s ease-in-out;
+  transition: background .3s ease-in-out;
+}
+
+.navbar-custom .nav li a:hover {
+  outline: 0;
+  color: rgba(255, 255, 255, .8);
+  background-color: transparent;
+}
+
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li a:active {
+  outline: 0;
+  background-color: transparent;
+}
+
+.navbar-custom .nav li.active {
+  outline: 0;
+}
+
+.navbar-custom .nav li.active a {
+  background-color: rgba(255, 255, 255, .3);
+}
+
+.navbar-custom .nav li.active a:hover {
+  color: #fff;
+}
+
+@media(min-width:768px) {
+  .navbar-custom {
+    padding: 20px 0;
+    border-bottom: 0;
+    letter-spacing: 1px;
+    background: 0 0;
+    -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+    transition: background .5s ease-in-out, padding .5s ease-in-out;
+  }
+
+  .navbar-custom.top-nav-collapse {
+    padding: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+    background: #000;
+  }
+}
+
+section {
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -167,7 +308,6 @@ section .b1 {
   background-size: cover;
   background-position: center;
   background: #2d2d30;
-  background-image: linear-gradient(45deg, #fff, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1));
   flex-direction: column;
   align-content: center;
   flex-wrap: wrap;
@@ -296,6 +436,22 @@ ul.repository-list {
 #contact {
   background-color: #000;
 }
+
+/* reduce header viewport size, and change position of graphic */
+/* @media (max-width: 768px) { */
+
+/* remove top nav and reveal burger menu */
+/* nav .topNav {
+    display: none;
+  }
+
+  .burgerMenu i {
+    visibility: visible;
+    position: absolute;
+    right: 20px;
+    font-size: 2rem;
+  }
+} */
 
 /* 
 

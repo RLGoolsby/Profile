@@ -75,41 +75,52 @@
   <!-- end of portal -->
   <!-- =========================================================== -->
   <!-- <div class="container-fluid"> -->
-  <!-- Navbar at the top of the page -->
-  <div class="content bg-1">
-    <div class="container-fluid">
-      <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <!-- Hide the navbar in small screens -->
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-              <!-- Create a button like three horizontal lines when resized on small screens -->
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">My Portfolio</a>
-          </div>
-          <!-- Only when the button is clicked the navigation bar will be displayed -->
-          <div class="collapse navbar-collapse" id="myNavbar">
-            <ul class="nav navbar-nav navbar-right">
-              <li class="active"><a href="#home">Home</a></li>
-              <li><a href="#bio">About</a></li>
-              <li><a href="#projects">My Projects</a></li>
-              <li><a href="#contact">Contact</a></li>
-            </ul>
-          </div> <!-- end collapse -->
-        </div> <!-- end container -->
-      </nav>
-    </div> <!-- end container -->
-  </div>
+  <!-- Navigation -->
+  <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+          <i class="fa fa-bars"></i>
+        </button>
+        <a class="navbar-brand page-scroll" href="#page-top">
+          <i class="fa fa-code" aria-hidden="true"></i> <span class="logoInitial">R</span><span
+            class="light">honda</span><span class="logoInitial">G</span><span class="light">oolsby</span>
+        </a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+        <ul class="nav navbar-nav">
+          <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+          <li class="hidden">
+            <a href="#page-top"></a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#bio">About</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#projects">Projects</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+  </nav>
   <!-- <header>
-    <nav>
-      <a href="#home">Home</a>
-      <a href="#bio">About Me</a>
-      <a href="#projects">Features</a>
+    <nav role="navigation">
+      <ul class="topNav">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#bio">About Me</a></li>
+        <li><a href="#projects">Features</a></li>
+      </ul>
+      <a href="#" class="burgerMenu"><i class="fas fa-bars"></i></a>
     </nav>
-  </header> -->
+    </header> -->
+
   <!-- <nav class="navigation">
      <ul class="nav masthead-nav navbar-default navbar-fixed-top">
       <ul id="ulMasthead">
@@ -120,9 +131,25 @@
         <li class="navigation link"><a href="#/projects">Projects</a></li>
       </ul>
     </nav> -->
+  <div class="content-wrapper">
+    <!-- Intro Header -->
+    <header class="intro">
+      <div class="intro-body">
+        <section id="home">
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+              <h1 class="cover-heading">Frontend Web Developer</h1>
+              <p class="intro-text">"Oh, the places we will go!"</p>
+              <a href="#about" class="btn btn-circle page-scroll">
+                <i class="fa fa-angle-double-down animated"></i>
+              </a>
+            </div>
+          </div>
+      </div>
+  </div>
+  </header>
 
-  <div class="content">
-    <section id="home">
+  <!-- <section id="home">
       <h1 class="cover-heading">Rhonda Goolsby</h1>
       <span><i class="fa-duotone fa-solid fa-user-secret fa-xl"
           style="--fa-primary-color: #9ce2d4; --fa-secondary-color: #08a7f7;" aria-hidden="true"></i></span>
@@ -135,99 +162,100 @@
         <a target="_tab" href="mailto:rlgoolsby@gmail.com"><i class="fa-solid fa-paper-plane"
             aria-hidden="true"></i></a></li>
       </div>
-    </section>
+    </section> -->
 
-    <section id="bio">
+  <section id="bio">
+    <div class="bio-description-wrapper">
+      <p class="bio-description">
+        My path to frontend web development wasn’t traditional, but it was driven by curiosity and a passion for
+        creativity. I was searching for a challenge that would let me build visually engaging, interactive
+        experiences—and I found
+        that in coding. Since then, I’ve discovered the satisfaction of writing code that brings design to life.</p>
+      <p class="bio-description">Over
+        the past
+        few years, I’ve developed responsive, accessible web applications using HTML, CSS, and JavaScript/Jquery
+        often
+        collaborating closely with designers, digital marketing and backend teams. I enjoy turning complex ideas
+        into
+        clean, intuitive user
+        interfaces and continuously exploring new tools to stay sharp and deliver polished digital experiences.</p>
+    </div>
+    <picture class="image-container">
+      <source srcset="assets/css/images/profile-25.webp" type="images/webp" loading="lazy" decoding="asynchronous" />
+      <source srcset="assets/css/images/profile-25.jpeg" type="images/jpeg" loading="lazy" decoding="asynchronous" />
+      <img class="img-responsive" src="assets/css/images/profile-25.jpeg" alt="profile-me" loading="lazy"
+        decoding="asynchronous" />
+    </picture>
+  </section>
 
-      <div class="bio-description-wrapper">
-        <p class="bio-description">
-          My path to frontend web development wasn’t traditional, but it was driven by curiosity and a passion for
-          creativity. I was searching for a challenge that would let me build visually engaging, interactive
-          experiences—and I found
-          that in coding. Since then, I’ve discovered the satisfaction of writing code that brings design to life.</p>
-        <p class="bio-description">Over
-          the past
-          few years, I’ve developed responsive, accessible web applications using HTML, CSS, and JavaScript/Jquery often
-          collaborating closely with designers, digital marketing and backend teams. I enjoy turning complex ideas into
-          clean, intuitive user
-          interfaces and continuously exploring new tools to stay sharp and deliver polished digital experiences.</p>
+
+
+  <section id="projects">
+    <div class="grid-section">
+      <!-- Nested Accordion -->
+      <div class="column one">
+        <h3 class="repository" id="seasonal">Seasonal Crops</h3>
+        <p class="repository-description">
+          Nested Accordion<br />
+          "visit site and click on accordion panels"
+        </p>
+        <ul class="repository-list">
+          <li class="site">
+            <a target="_tab" class="btn btn-primary" href="https://rlgoolsby.github.io/Seasonal-Crops-accordion/"
+              role="button">Visit Site &raquo;</a>
+          </li>
+          <li class="github">
+            <a target="_tab" class="btn btn-primary" href="https://github.com/RLGoolsby/Seasonal-Crops-accordion"
+              role="button">Github &raquo;</a>
+          </li>
+        </ul>
       </div>
-      <picture class="image-container">
-        <source srcset="assets/css/images/profile-25.webp" type="images/webp" loading="lazy" decoding="asynchronous" />
-        <source srcset="assets/css/images/profile-25.jpeg" type="images/jpeg" loading="lazy" decoding="asynchronous" />
-        <img class="img-responsive" src="assets/css/images/profile-25.jpeg" alt="profile-me" loading="lazy"
-          decoding="asynchronous" />
-      </picture>
-    </section>
+      <!-- end of nested accordion -->
 
-
-
-    <section id="projects">
-      <div class="grid-section">
-        <!-- Nested Accordion -->
-        <div class="column one">
-          <h3 class="repository" id="seasonal">Seasonal Crops</h3>
-          <p class="repository-description">
-            Nested Accordion<br />
-            "visit site and click on accordion panels"
-          </p>
-          <ul class="repository-list">
-            <li class="site">
-              <a target="_tab" class="btn btn-primary" href="https://rlgoolsby.github.io/Seasonal-Crops-accordion/"
-                role="button">Visit Site &raquo;</a>
-            </li>
-            <li class="github">
-              <a target="_tab" class="btn btn-primary" href="https://github.com/RLGoolsby/Seasonal-Crops-accordion"
-                role="button">Github &raquo;</a>
-            </li>
-          </ul>
-        </div>
-        <!-- end of nested accordion -->
-
-        <!-- Responsive-Icon-Grid -->
-        <div class="column two">
-          <h3 class="repository" id="icon-grid">Responsive-Icon-Grid</h3>
-          <p class="repository-description">
-            CSS Transition/Transform Exercise
-            "visit site and hover over icons"
-          </p>
-          <ul class="repository-list">
-            <li class="site">
-              <a target="_tab" class="btn btn-primary" href="https://rlgoolsby.github.io/responsive-icon-grid-c7/"
-                role="button">Visit Site &raquo;</a>
-            </li>
-            <li class="github">
-              <a target="_tab" class="btn btn-primary"
-                href="https://github.com/RLGoolsby/responsive-icon-grid-c7/tree/gh-pages" role="button">Github
-                &raquo;</a>
-            </li>
-          </ul>
-        </div>
-        <!-- Image Slider -->
-        <div class="column three">
-          <div class="repository" id="imgslider">Image Slider</div>
-
-          <p class="repository-description">
-            Responsive 3d Image Slider
-            "visit site and navigate through images"
-          </p>
-          <ul class="repository-list">
-            <li class="site">
-              <a target="_tab" class="btn btn-primary" href="https://rlgoolsby.github.io/ImageSlider/"
-                role="button">Visit Site &raquo;</a>
-            </li>
-            <li class="github">
-              <a target="_tab" class="btn btn-primary" href="https://github.com/RLGoolsby/ImageSlider"
-                role="button">Github
-                &raquo;</a>
-            </li>
-          </ul>
-        </div>
-        <!-- end of Responsive 3d Image Slider -->
+      <!-- Responsive-Icon-Grid -->
+      <div class="column two">
+        <h3 class="repository" id="icon-grid">Responsive-Icon-Grid</h3>
+        <p class="repository-description">
+          CSS Transition/Transform Exercise
+          "visit site and hover over icons"
+        </p>
+        <ul class="repository-list">
+          <li class="site">
+            <a target="_tab" class="btn btn-primary" href="https://rlgoolsby.github.io/responsive-icon-grid-c7/"
+              role="button">Visit Site &raquo;</a>
+          </li>
+          <li class="github">
+            <a target="_tab" class="btn btn-primary"
+              href="https://github.com/RLGoolsby/responsive-icon-grid-c7/tree/gh-pages" role="button">Github
+              &raquo;</a>
+          </li>
+        </ul>
       </div>
-      <!-- grid-section -->
-    </section>
-    <!-- end of projects-->
+      <!-- Image Slider -->
+      <div class="column three">
+        <div class="repository" id="imgslider">Image Slider</div>
+
+        <p class="repository-description">
+          Responsive 3d Image Slider
+          "visit site and navigate through images"
+        </p>
+        <ul class="repository-list">
+          <li class="site">
+            <a target="_tab" class="btn btn-primary" href="https://rlgoolsby.github.io/ImageSlider/" role="button">Visit
+              Site &raquo;</a>
+          </li>
+          <li class="github">
+            <a target="_tab" class="btn btn-primary" href="https://github.com/RLGoolsby/ImageSlider"
+              role="button">Github
+              &raquo;</a>
+          </li>
+        </ul>
+      </div>
+      <!-- end of Responsive 3d Image Slider -->
+    </div>
+    <!-- grid-section -->
+  </section>
+  <!-- end of projects-->
   </div>
   <!-- end of .content-->
 
