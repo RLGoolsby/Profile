@@ -289,13 +289,9 @@ nav a:active {
 } */
 
 #home {
-  width: 100%;
-  height: auto;
-  padding-top: 250px;
-  padding-bottom: 350px;
   text-align: center;
   color: #fff;
-  background-color: #000;
+  /* background-color: #000; */
   background: url("/assets/css/images/IMG_2432.jpeg") no-repeat center center scroll;
   background-attachment: fixed;
   -webkit-background-size: cover;
