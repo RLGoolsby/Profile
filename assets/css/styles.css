@@ -290,14 +290,11 @@ nav a:active {
 
 #home {
   text-align: center;
-  color: #fff;
+  /* color: #fff; */
   /* background-color: #000; */
   background: url("/assets/css/images/IMG_2432.jpeg") no-repeat center center scroll;
   background-attachment: fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
+
 }
 
 .cover-heading {
