@@ -266,10 +266,11 @@ a:hover {
 
 nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-end;
   text-align: center;
-  padding: 20px 0px;
+  padding: 0px 0px;
   overflow: hidden;
+  flex-direction: row;
 }
 
 /* nav a:link,
@@ -295,7 +296,8 @@ nav a:active {
   text-align: center;
   color: #fff;
   background-color: #000;
-  background: url("https: //github.com/RLGoolsby/Profile/blob/f598ef18e95bd9aa196067b1af16b9e0cecbc5d3/assets/css/images/IMG_2432.jpeg") no-repeat center center scroll;
+  background: url("/assets/css/images/IMG_2432.jpeg") no-repeat center center scroll;
+  background-attachment: fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -308,7 +310,7 @@ nav a:active {
   font-family: "Lato", Verdana, sans-serif;
   color: #fff;
   text-align: center;
-  padding: 0.5em;
+  /* padding: 0.5em; */
   text-shadow: 0 0 5px #000, 0 0 10px #000, 0 0 15px #000, 0 0 20px #000, 0 0 25px #000, 0 0 30px #000, 0 0 35px #000;
 }
 
