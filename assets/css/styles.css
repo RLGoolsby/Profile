@@ -78,11 +78,11 @@ a {
 }
 
 /* Links */
-a,
+/* a,
 a:focus,
 a:hover {
   color: #fff;
-}
+} */
 
 .links {
   width: 100%;
@@ -98,17 +98,15 @@ a:hover {
 }
 
 /* Custom default button */
-.btn-default,
+/* .btn-default,
 .btn-default:hover,
 .btn-default:focus {
   color: #333;
-  text-shadow: none;
-  /* Prevent inheritance from `body` */
-  background-color: #fff;
+  text-shadow: none; */
+/* Prevent inheritance from `body` */
+/* background-color: #fff;
   border: 1px solid #fff;
-}
-
-
+} */
 
 .content-wrapper {
   /* position: relative; */
@@ -117,15 +115,15 @@ a:hover {
   /* background-color: darkgray; */
 }
 
-.intro-body {
-  position: relative;
-  height: 100vh;
-  margin-top: 30px;
-  /* background-color: darkgray; */
-}
+/* .content-wrapper:after {
+  content: "";
+  display: block;
+  clear: both;
+} */
+
 
 /* Header */
-/* header {
+.header {
   position: fixed;
   top: 0;
   width: 100%;
@@ -134,12 +132,162 @@ a:hover {
   transition: background-color 0.5s, padding 1s;
 }
 
-header.sticky {
+.header.sticky {
   background-color: rgba(0, 0, 0, 0.9);
+}
 
+.header a {
+  color: #fff;
+}
+
+.header .logo {
+  display: block;
+  float: left;
+  font-size: 1.5em;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+  background-color: #000;
+}
+
+.header li a {
+  display: block;
+  padding: 20px 20px;
+  /* border-right: 2px solid #000; */
+  text-decoration: none;
+}
+
+
+
+.header li a:hover,
+.header .menu-btn:hover {
+  background-color: rgb(85, 95, 85);
+}
+
+/* Nav Menu */
+.header .menu {
+  clear: both;
+  max-height: 0;
+  transition: max-height .2s ease-out;
+}
+
+/* Menu Icon */
+.header .menu-icon {
+  cursor: pointer;
+  display: inline-block;
+  float: right;
+  padding: 28px 20px;
+  position: relative;
+  user-select: none;
+}
+
+.header .menu-icon .navicon {
+  background: #cd4545;
+  display: block;
+  height: 2px;
+  width: 18px;
+  position: relative;
+  transition: background .2s ease-out;
+
+}
+
+.header .menu-icon .navicon:before,
+.header .menu-icon .navicon:after {
+  background: #fff;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all .2s ease-out;
+  width: 100%;
+}
+
+.header .menu-icon .navicon:before {
+  top: 5px;
+}
+
+.header .menu-icon .navicon:after {
+  top: -5px;
+}
+
+/* Menu Button */
+.header .menu-btn {
+  display: none;
+}
+
+.header .menu-btn:checked~.menu {
+  max-height: 240px;
+}
+
+.header .menu-btn:checked~.menu-icon .navicon {
+  background: transparent;
+}
+
+.header .menu-btn:checked~.menu-icon .navicon:before {
+  transform: rotate(-45deg);
+}
+
+.header .menu-btn:checked~.menu-icon .navicon:after {
+  transform: rotate(45deg);
+}
+
+.header .menu-btn:checked~.menu-icon:not(.steps) .navicon:before,
+.header .menu-btn:checked~.menu-icon:not(.steps) .navicon:after {
+  top: 0;
+}
+
+/* 48em = 768px */
+
+@media (min-width: 48em) {
+  .header li {
+    float: left;
+  }
+
+  .header li a {
+    padding: 20px 30px;
+  }
+
+  .header .menu {
+    clear: none;
+    float: right;
+    max-height: none;
+  }
+
+  .header .menu-icon {
+    display: none;
+  }
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding: 20px 0px;
+  overflow: hidden;
+}
+
+/* nav a:link,
+nav a:visited {
+  color: #fff;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 5px;
 } */
 
-header .intro {
+/* nav a:hover,
+nav a:active {
+  color: #aaa;
+  transform: scale(1.1);
+} */
+
+#home {
   width: 100%;
   height: auto;
   padding-top: 250px;
@@ -147,7 +295,7 @@ header .intro {
   text-align: center;
   color: #fff;
   background-color: #000;
-  background: url("https://www.dropbox.com/s/f2weiagmo74sfjh/Lonely%20Tree.png?raw=1") no-repeat center center scroll;
+  background: url("https: //github.com/RLGoolsby/Profile/blob/f598ef18e95bd9aa196067b1af16b9e0cecbc5d3/assets/css/images/IMG_2432.jpeg") no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -156,46 +304,36 @@ header .intro {
 
 .cover-heading {
   font-size: 5em;
+  font-weight: 500;
+  font-family: "Lato", Verdana, sans-serif;
+  color: #fff;
+  text-align: center;
+  padding: 0.5em;
+  text-shadow: 0 0 5px #000, 0 0 10px #000, 0 0 15px #000, 0 0 20px #000, 0 0 25px #000, 0 0 30px #000, 0 0 35px #000;
 }
 
 .title {
   font-size: 4em;
   padding: 0.5em;
-  color: rgb(49, 62, 27);
-}
-
-/* nav .topNav {
-  display: flex;
-  justify-content: space-around;
-  text-align: center;
-  padding: 20px 0px;
-}
-
-nav .topNav li a:link,
-nav .topNav li a:visited {
   color: #fff;
-  font-size: 0.9em;
-  text-transform: uppercase;
-  text-decoration: none;
-  padding: 5px;
-}
-
-nav .topNav li a:hover,
-nav .topNav li a:active {
-  color: #aaa;
-  transform: scale(1.1);
+  text-align: center;
+  text-shadow: 0 0 5px #000, 0 0 10px #000, 0 0 15px #000, 0 0 20px #000, 0 0 25px #000, 0 0 30px #000, 0 0 35px #000;
+  font-family: "Lato", Verdana, sans-serif;
+  font-weight: 500;
 }
 
 
 
 
 
-.burgerMenu i {
+
+
+/* .burgerMenu i {
   color: #042259;
   visibility: hidden;
-} */
+}  */
 
-a {
+/* a {
   color: #adebeb;
   -webkit-transition: all .2s ease-in-out;
   -moz-transition: all .2s ease-in-out;
@@ -252,18 +390,6 @@ a:focus {
   color: #fff;
 }
 
-.container {
-  max-width: 1280px;
-  margin: auto;
-  padding: 0 1em;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #000;
-  ;
-}
-
 .navbar-custom .nav li a {
   -webkit-transition: background .3s ease-in-out;
   -moz-transition: background .3s ease-in-out;
@@ -310,7 +436,7 @@ a:focus {
     border-bottom: 1px solid rgba(255, 255, 255, .3);
     background: #000;
   }
-}
+} */
 
 section {
   min-height: 100vh;
